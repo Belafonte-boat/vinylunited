@@ -1,6 +1,15 @@
 require 'builder'
 require 'susy'
 
+activate :deploy do |deploy|
+  deploy.method = :ftp
+  deploy.host = "web332.webfaction.com"
+  deploy.user = "piermaria"
+  deploy.password = "Nonmelaricordo2"
+  deploy.path = "/home/piermaria/webapps/beta_vinylunited"
+  
+end
+
 activate :automatic_image_sizes
 activate :livereload
 activate :i18n, :mount_at_root => :en
