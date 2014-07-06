@@ -1,3 +1,4 @@
+//=require fullpage.js/jquery.fullPage.css
 @import compass/utilities/sprites
 @import compass/typography
 @import h5bp
@@ -21,9 +22,10 @@ $legacy-support-for-ie: true
 
 
 
+
 *:focus
-	outline-style: none
-	outline-width: 0px
+  outline-style: none
+  outline-width: 0px
 
 
 
@@ -35,46 +37,83 @@ $legacy-support-for-ie: true
 
 
 .hyphenate
-	+hyphenation
+  +hyphenation
 
 
 .container
-	+container($total-columns, $break3)
+  +container($total-columns, $break3)
 
 h1,h2,h3,h4,h5,h6,p,span,textarea,input
-	font-family: 'Lato', sans-serif
+  font-family: 'Lato', sans-serif
 html
-	background: black
-	margin-left: 30px
-	margin-top: 30px
-	
-body
-	min-width: 100%
-	min-height: 100%
-	background: black
-img.signature
-	width: 80px
-	height: 80px
+  background: black
 
-	
-p.signature
-	font-family: 'Muli', sans-serif
-	font-weight: 300
-	font-size: 12px
-	line-height: 18px
-	letter-spacing: 1px
-	margin: 0
-	margin-top: 8px
-	color: #65666A
-	span.cities
-		font-family: 'Muli', sans-serif
-		font-weight: 300
-		font-size: 12px
-		letter-spacing: px-to-em(1px,16px)
-	span
-		font-family: 'Lato', sans-serif
-		font-weight: 400
-		font-size: 14px
-		color: #65666A
-		
+
+body
+  min-width: 100%
+  min-height: 100%
+  background: black
+
+
+
+
+
+.section
+  text-align: center
+
+
+
+#section0, #section1, #section2, #section3
+  background-size: cover
+
+
+
+
+
+
+#section3
+  background-image: image-url("backgrounds/experiences.jpg")
+  background-repeat: no-repeat
+  background-size: 100%
+
+#section3
+  background-image: image-url("backgrounds/howwework.jpg")
+  background-repeat: no-repeat
+  background-size: 100%
+
+#section4
+  background-image: image-url("backgrounds/whatwedo.jpg")
+  background-repeat: no-repeat
+  background-size: 100%
+
+
+
+#slide1
+  background-image: image-url("backgrounds/aboutus.jpg")
+  background-repeat: no-repeat
+  background-size: 100%
+
+#slide2
+  background-image: image-url("backgrounds/partners.jpg")
+  background-repeat: no-repeat
+  background-size: 100%
+
+#slide3
+  background-image: image-url("backgrounds/experiences.jpg")
+  background-repeat: no-repeat
+  background-size: 100%
+
+#slide4
+  background-image: image-url("backgrounds/values.jpg")
+  background-repeat: no-repeat
+  background-size: 100%
+#slide5
+  background-image: image-url("backgrounds/office.jpg")
+  background-repeat: no-repeat
+  background-size: 100%
+
+#slide6
+  background-image: image-url("backgrounds/contact.jpg")
+  background-repeat: no-repeat
+  background-size: 100%
 
