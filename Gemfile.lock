@@ -40,6 +40,8 @@ GEM
       docile (~> 1.1)
     ffi (1.9.3)
     ffi (1.9.3-x86-mingw32)
+    font-awesome-middleman (4.1.1)
+      middleman-core (>= 3.0.0)
     fspath (2.0.6)
     fssm (0.2.10)
     haml (4.0.5)
@@ -204,6 +206,7 @@ DEPENDENCIES
   builder
   compass-h5bp
   compass-sourcemaps
+  font-awesome-middleman
   middleman (~> 3.3.3)
   middleman-bower
   middleman-deploy

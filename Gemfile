@@ -24,6 +24,7 @@ gem 'premailer'
 
 
 gem 'compass-sourcemaps'
+gem 'font-awesome-middleman'
 
 gem "middleman-imageoptim", "~> 0.1.4"
 

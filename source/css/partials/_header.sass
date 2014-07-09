@@ -1,2 +1,49 @@
 #header
+  #menu
+    position: fixed
+    top: 20px
+    left: 20px
+    width: 44px
+    height: 44px
+    z-index: 100
+    a
+
+      text-decoration: none
+      &:hover
+        i
+          color: #CC8B7A
+
+    i.hamburger
+      font-size: px-to-em(23px,16px)
+      color: #cfcfcf
+      text-align: center
+      line-height: 44px
+
+  #lang
+    position: absolute
+    top: 20px
+    right: 20px
+    z-index: 100
+    ul
+      +no-bullets
+      margin: 0
+      padding: 0
+      li
+        a
+          text-decoration: none
+          border: 1px solid #cfcfcf
+          font-family: "Muli", sans-serif
+          font-size: px-to-em(16px,16px)
+          font-weight: 400
+          color: #cfcfcf
+          width: 44px
+          height: 44px
+          +border-radius(22px)
+          display: block
+          text-align: center
+          line-height: 44px
+          &:hover
+            color: #CC8B7A
+            border: 1px solid #CC8B7A
+
   

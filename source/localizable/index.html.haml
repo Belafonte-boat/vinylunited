@@ -2,7 +2,28 @@
 title: "main page"
 metas: "main"
 ---
-.container
-	= partial "partials/header"
-	= partial "partials/landing"
-	= partial "partials/footer"
+= partial "partials/header"
+= partial "partials/footer"
+#fullpage
+  .section#section0
+
+    = partial "partials/landing"
+  .section#section1
+    .slide#slide1
+      = partial "partials/aboutus"
+    .slide#slide2
+      %p Partners
+  .section#section2
+    .slide#slide3
+      %p Our Experience
+    .slide#slide4
+      %p Our Experience
+  .section#section3
+    %p How we work
+  .section#section4
+    %p What we do
+  .section#section5
+    .slide#slide5
+      %p Our offices
+    .slide#slide6
+      %p Contact us

@@ -10,7 +10,8 @@ $(document).ready(function() {
         loopBottom: false,
         loopTop: false,
         loopHorizontal: true,
-        autoScrolling: true
+        autoScrolling: true,
+        anchors:['landing', 'aboutus']
     });
 });
 

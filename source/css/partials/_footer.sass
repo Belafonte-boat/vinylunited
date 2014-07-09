@@ -1,34 +1,13 @@
 #footer
-	+span-columns(10,10)
-	position: fixed
-	bottom: 0
-	h2
-		font-family: 'Lato', sans-serif
-		font-weight: 300
-		font-size: 20px
-		text-transform: uppercase
-		letter-spacing: 2px
-	p
-		font-family: 'Muli', sans-serif
-		font-weight: 300
-		font-size: px-to-em(12px,16px)
-		line-height: px-to-em(20px,16px)
-		span
-			font-family: 'Lato', sans-serif
-			font-weight: 700
-			font-size: 14px
-			letter-spacing: 2px
-	
-	p.guido
-		+span-columns(3,16)
-		margin-bottom: 40px
-	p.adriano
-		+span-columns(3,16)
-		margin-bottom: 40px
-	p.info
-		+span-columns(10,10)
-		font-family: 'Lato', sans-serif
-		font-weight: 300
-		font-size: px-to-em(11px,16px)
-		letter-spacing: 0.16em
-		margin-bottom: 20px
+  position: fixed
+  bottom: 20px
+  left: 20px
+  z-index: 100
+  a#small-logo
+    display: block
+    text-decoration: none
+    background: image-url("vinyl_icon_smallvinyl.png") no-repeat center center
+    width: image-width("vinyl_icon_smallvinyl.png")
+    height: image-height("vinyl_icon_smallvinyl.png")
+    &:hover
+      +opacity(0.9)
