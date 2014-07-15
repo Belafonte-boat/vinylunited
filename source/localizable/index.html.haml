@@ -6,24 +6,26 @@ metas: "main"
 = partial "partials/footer"
 #fullpage
   .section#section0
-
     = partial "partials/landing"
-  .section#section1
+  .section#section1.wide
     .slide#slide1
       = partial "partials/aboutus"
     .slide#slide2
-      %p Partners
-  .section#section2
+      = partial "partials/partners"
+  .section#section2.wide
     .slide#slide3
-      %p Our Experience
+      = partial "partials/howwework"
     .slide#slide4
-      %p Our Experience
-  .section#section3
-    %p How we work
-  .section#section4
-    %p What we do
-  .section#section5
+      = partial "partials/whatwedo"
+  .section#section3.wide
     .slide#slide5
-      %p Our offices
+      = partial "partials/ourexperience"
     .slide#slide6
-      %p Contact us
+      = partial "partials/ourexperience2"
+  .section#section4
+    = partial "partials/ourvalues"
+  .section#section5.wide
+    .slide#slide7
+      = partial "partials/ouroffices"
+    .slide#slide8
+      = partial "partials/contactus"

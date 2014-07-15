@@ -14,7 +14,19 @@
 
 $legacy-support-for-ie: true
 
+$onyx-black: #101010
 
+$loblolly: #B7B7B7
+
+$westar: #D6D1C4
+
+$new-york-pink: #D78772
+
+$white: #FFFFFF
+
+$foggy-gray: #A5A3A1
+
+$aluminium: #888A8D
 
 
 @import partials/custom_mixins
@@ -23,6 +35,9 @@ $legacy-support-for-ie: true
 @import "font-awesome"
 
 @import partials/comingsoon
+@import partials/howwework
+@import partials/whatwedo
+@import partials/ourexperiences
 
 
 
@@ -39,8 +54,13 @@ $legacy-support-for-ie: true
 @import partials/footer_comingsoon
 
 @import partials/aboutus
+@import partials/partners
 
 @import partials/landing
+@import partials/ourvalues
+
+@import partials/ouroffices
+@import partials/contactus
 
 
 .hyphenate
@@ -53,13 +73,13 @@ $legacy-support-for-ie: true
 h1,h2,h3,h4,h5,h6,p,span,textarea,input
   font-family: 'Lato', sans-serif
 html
-  background: #1a1a1a
+  background: $onyx-black
 
 
 body
   min-width: 100%
   min-height: 100%
-  background: #1a1a1a
+  background: $onyx-black
 
 
 
@@ -76,12 +96,7 @@ body
   background-position: center center
 
 
-#section3
-  background-image: image-url("backgrounds/vinyl_howwework_img.jpg")
 
-
-#section4
-  background-image: image-url("backgrounds/vinyl_whatwedo_img.jpg")
 
 
 
@@ -92,19 +107,137 @@ body
 #slide2
   background-image: image-url("backgrounds/vinyl_partners_img.jpg")
 
-
 #slide3
-  background-image: image-url("backgrounds/vinyl_experience_img.jpg")
+  background-image: image-url("backgrounds/vinyl_howwework_img.jpg")
 
 
 #slide4
-  background-image: image-url("backgrounds/vinyl_ourvalues_img.jpg")
+  background-image: image-url("backgrounds/vinyl_whatwedo_img.jpg")
 
 #slide5
-  background-image: image-url("backgrounds/vinyl_ouroffices_img.jpg")
+  background-image: image-url("backgrounds/vinyl_experience_img.jpg")
 
 
 #slide6
+  background-image: image-url("backgrounds/vinyl_experience_img.jpg")
+#section4
+  background-image: image-url("backgrounds/vinyl_ourvalues_img.jpg")
+
+#slide7
+  background-image: image-url("backgrounds/vinyl_ouroffices_img.jpg")
+
+
+#slide8
   background-image: image-url("backgrounds/vinyl_contactus_img.jpg")
 
 
+.controlArrow
+  display: none
+
+.section
+  +span-columns(12,12)
+  .container
+    position: relative
+    min-height: 550px
+    height: 100%
+  h2.title
+    font-family: "lato", sans-serif
+    font-weight: 700
+    color: $aluminium
+    letter-spacing: px-to-em(3px,16px)
+    text-align: left
+    font-size: px-to-em(30px,16px)
+    +pre(1,12)
+  p.main
+    text-align: left
+    +span-columns(5,12)
+    +pre(2,12)
+    font-weight: 300
+    font-family: "Muli", sans-serif
+    color: $loblolly
+    font-weight: px-to-em(16px,16px)
+    line-height: px-to-em(24px,16px)
+
+
+
+
+.arrow-down
+  position: absolute
+  bottom: 20px
+  width: 150px
+  left: 50%
+  margin-left: - 75px
+  .asset
+    background: image-url("vinyl_arrow_down.png") no-repeat top left
+    width: image-width("vinyl_arrow_down.png")
+    height: image-height("vinyl_arrow_down.png")
+    margin: 0 auto 10px auto
+  a
+    text-decoration: none
+    &:hover
+      span
+        text-decoration: underline
+
+  span
+    font-family: "Muli", sans-serif
+    font-size: px-to-em(16px,16px)
+    font-weight: 400
+    color: $new-york-pink
+    text-transform: uppercase
+
+
+.wide
+  .arrow-down
+    left: 25%
+
+.arrow-left
+  position: absolute
+  left: 20px
+  cursor: pointer
+  top: 50%
+
+  span
+    font-family: "Muli", sans-serif
+    font-size: px-to-em(14px,16px)
+    font-weight: 400
+    color: $new-york-pink
+    text-align: right
+    display: block
+    margin-bottom: -8px
+
+  .asset
+    background: image-url("vinyl_arrow_left.png") no-repeat top left
+    width: image-width("vinyl_arrow_left.png")
+    height: image-height("vinyl_arrow_left.png")
+    margin: auto
+  .small-asset
+    background: image-url("vinyl_small_arrow_left.png") no-repeat top left
+    width: image-width("vinyl_small_arrow_left.png")
+    height: image-height("vinyl_small_arrow_left.png")
+    margin: auto
+.arrow-right
+  position: absolute
+  right: 20px
+
+  top: 50%
+
+  cursor: pointer
+  span
+    font-family: "Muli", sans-serif
+    font-size: px-to-em(14px,16px)
+    font-weight: 400
+    color: $new-york-pink
+    text-align: left
+    display: block
+    margin-bottom: -8px
+
+  .asset
+    background: image-url("vinyl_arrow_right.png") no-repeat top left
+    width: image-width("vinyl_arrow_right.png")
+    height: image-height("vinyl_arrow_right.png")
+    margin: auto
+  .small-asset
+    background: image-url("vinyl_small_arrow_right.png") no-repeat top left
+    width: image-width("vinyl_small_arrow_right.png")
+    height: image-height("vinyl_small_arrow_right.png")
+    margin: auto

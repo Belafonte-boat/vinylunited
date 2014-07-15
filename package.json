@@ -1,0 +1,11 @@
+{
+  "name": "VinylUnited",
+  "description": "Single page web application",
+  "version": "0.0.1",
+  "devDependencies": {
+    "dalek-browser-chrome": "0.0.10",
+    "dalek-browser-firefox": "0.0.6",
+    "dalek-reporter-html": "0.0.3",
+    "dalekjs": "0.0.8"
+  }
+}

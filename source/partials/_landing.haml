@@ -1,9 +1,11 @@
-#landing
-  = image_tag "vinyl_logo.png", class: "logo"
-  %h1
-    COMMUNICATION & NEO-TECHNOLOGIES ADVISORS
+#landing-section
+  .container
+    = image_tag "vinyl_logo.png", class: "logo"
+    %h1
+      = I18n.t(landing.title)
 
-  .arrow
-    .down
+  .arrow-down
     %a{href:"#aboutus"}
-      scroll down
+      .asset
+      %span
+        scroll down

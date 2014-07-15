@@ -1,0 +1,25 @@
+#ourvalues-section
+  .spacer
+    +pre(2,12)
+    +span-columns(8,12)
+  .value
+    +isolate-grid(4,8)
+    text-align: left
+    //&:first-child
+    //  border-bottom: 1px solid $new-york-pink
+    //  border-right: 1px solid $new-york-pink
+    //  +bleed($gutter-width*0.5, right bottom)
+    //&:last-child
+    //  border-top: 1px solid $new-york-pink
+    //  border-left: 1px solid $new-york-pink
+    //  +bleed($gutter-width*0.5, left top)
+    h3
+      color: $new-york-pink
+      text-align: left
+      font-family: 'Lato', sans-serif
+      font-weight: 400
+      font-weight: px-to-em(16px,16px)
+    p
+      font-family: 'Muli' sans-serif
+      font-size: px-to-em(16px,16px)
+      font-weight: 300
