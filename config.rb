@@ -17,6 +17,7 @@ activate :livereload
 activate :i18n, :mount_at_root => :en
 
 page "/", :layout => :html5
+page "/it/", :layout => :html5
 page "/comingsoon.html", :layout => :html5
 page "/sitemap.xml", :layout => false
 page "/signature.html", :layout => :signature
