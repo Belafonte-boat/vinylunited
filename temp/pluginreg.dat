@@ -1,0 +1,199 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version:0.16:$
+Arch:x86_64-gcc3:$
+
+[PLUGINS]
+Flash Player.plugin:$
+/Library/Internet Plug-Ins/Flash Player.plugin:$
+14.0.0.145:$
+1404850703000:0:0:$
+Shockwave Flash 14.0 r0:$
+Shockwave Flash:$
+2
+0:application/x-shockwave-flash:Shockwave Flash:swf:$
+1:application/futuresplash:FutureSplash Player:spl:$
+o1dbrowserplugin.plugin:$
+/Library/Internet Plug-Ins/o1dbrowserplugin.plugin:$
+5.4.2.18903:$
+1402080226000:0:0:$
+Version 5.4.2.18903:$
+Google Talk Plugin Video Renderer:$
+1
+0:application/o1d:Google Talk Plugin Video Renderer:o1d:$
+googletalkbrowserplugin.plugin:$
+/Library/Internet Plug-Ins/googletalkbrowserplugin.plugin:$
+5.4.2.18903:$
+1402080226000:0:0:$
+Version 5.4.2.18903:$
+Google Talk Plugin:$
+1
+0:application/googletalk:Google voice and video chat:googletalk:$
+QuickTime Plugin.plugin:$
+/Library/Internet Plug-Ins/QuickTime Plugin.plugin:$
+7.7.3:$
+1401899401000:0:0:$
+QuickTime Plugin consente di visualizzare una grande varietà di contenuti multimediali nelle pagine Web. Per maggiori informazioni, visita il sito <A HREF=http://www.apple.com/it/quicktime>QuickTime</A>.:$
+QuickTime Plug-in 7.7.3:$
+47
+0:video/x-msvideo:Video For Windows:avi,vfw,vfw,avi,gvi,divx,vp6:$
+1:audio/webm:Matroska/WebM file:mkv,mka,webm:$
+2:video/x-flv:Flash Video:flv:$
+3:audio/mp3:MP3 audio:mp3,swa:$
+4:audio/mpeg3:MP3 audio:mp3,swa:$
+5:video/3gpp2:3GPP2 media:3g2,3gp2:$
+6:audio/x-caf:CAF audio:caf:$
+7:audio/mpeg:MPEG audio:mpeg,mpg,m1s,m1a,mp2,mpm,mpa,m2a,mp3,swa:$
+8:video/quicktime:QuickTime Movie:mov,qt,mqv:$
+9:audio/x-mpeg3:MP3 audio:mp3,swa:$
+10:video/mp4:MPEG-4 media:mp4:$
+11:application/x-sdp:SDP stream descriptor:sdp:$
+12:audio/wav:WAVE audio:wav,bwf:$
+13:video/avi:Video For Windows:avi,vfw,vfw,avi,gvi,divx,vp6:$
+14:audio/x-ac3:AC3 audio:ac3:$
+15:audio/mp4:MPEG-4 media:mp4:$
+16:video/x-m4v:Video:m4v:$
+17:application/sdp:SDP stream descriptor:sdp:$
+18:audio/x-wav:WAVE audio:wav,bwf:$
+19:audio/x-aiff:AIFF audio:aiff,aif,aifc,cdda:$
+20:video/x-mpeg:MPEG media:mpeg,mpg,m1s,m1v,m1a,m75,m15,mp2,mpm,mpv,mpa:$
+21:video/3gpp:3GPP media:3gp,3gpp:$
+22:video/msvideo:Video For Windows:avi,vfw,vfw,avi,gvi,divx,vp6:$
+23:video/x-matroska:Matroska/WebM file:mkv,mka,webm:$
+24:audio/x-mpeg:MPEG audio:mpeg,mpg,m1s,m1a,mp2,mpm,mpa,m2a,mp3,swa:$
+25:audio/vnd.qcelp:QUALCOMM PureVoice audio:qcp:$
+26:audio/x-mp3:MP3 audio:mp3,swa:$
+27:application/x-rtsp:RTSP stream descriptor:rtsp,rts:$
+28:audio/amr:AMR audio:AMR:$
+29:audio/x-matroska:Matroska/WebM file:mkv,mka,webm:$
+30:audio/x-tta:True Audio:tta:$
+31:audio/aiff:AIFF audio:aiff,aif,aifc,cdda:$
+32:video/sd-video:SD video:sdv:$
+33:video/webm:Matroska/WebM file:mkv,mka,webm:$
+34:video/mpeg:MPEG media:mpeg,mpg,m1s,m1v,m1a,m75,m15,mp2,mpm,mpv,mpa:$
+35:audio/3gpp2:3GPP2 media:3g2,3gp2:$
+36:audio/aac:AAC audio:aac,adts:$
+37:audio/ac3:AC3 audio:ac3:$
+38:audio/x-m4b:AAC audio book:m4b:$
+39:video/x-nuv:NuppelVideo:nuv:$
+40:audio/x-m4p:AAC audio:m4p:$
+41:audio/x-gsm:GSM audio:gsm:$
+42:application/x-mpeg:AMC media:amc:$
+43:audio/x-aac:AAC audio:aac,adts:$
+44:audio/basic:uLaw/AU audio:au,snd,ulw:$
+45:audio/x-m4a:AAC audio:m4a:$
+46:audio/3gpp:3GPP media:3gp,3gpp:$
+Default Browser.plugin:$
+/Library/Internet Plug-Ins/Default Browser.plugin:$
+537:$
+1401899355000:0:0:$
+Fornisce informazioni sul browser web di default:$
+Default Browser Helper:$
+1
+0:application/apple-default-browser:Provides information about the default web browser::$
+JavaAppletPlugin.plugin:$
+/Library/Internet Plug-Ins/JavaAppletPlugin.plugin:$
+Java 7 Update 60:$
+1399494355000:0:0:$
+Displays Java applet content, or a placeholder if Java is not installed.:$
+Java Applet Plug-in:$
+21
+0:application/x-java-applet;deploy=10.60.2:Java applet::$
+1:application/x-java-applet;version=1.4:Java applet::$
+2:application/x-java-applet;version=1.2.1:Java applet::$
+3:application/x-java-applet;version=1.2.2:Java applet::$
+4:application/x-java-applet;version=1.3:Java applet::$
+5:application/x-java-applet;jpi-version=1.7.0_60:Java applet::$
+6:application/x-java-vm:Java applet::$
+7:application/x-java-applet;version=1.1.1:Java applet::$
+8:application/x-java-vm-npruntime:Java applet::$
+9:application/x-java-applet;version=1.2:Java applet::$
+10:application/x-java-applet;version=1.7:Java applet::$
+11:application/x-java-applet;version=1.4.1:Java applet::$
+12:application/x-java-applet;version=1.1.2:Java applet::$
+13:application/x-java-applet:Basic Java Applets:javaapplet:$
+14:application/x-java-applet;version=1.1:Java applet::$
+15:application/x-java-applet;version=1.1.3:Java applet::$
+16:application/x-java-applet;javafx=2.2.60:Java applet::$
+17:application/x-java-applet;version=1.6:Java applet::$
+18:application/x-java-applet;version=1.4.2:Java applet::$
+19:application/x-java-applet;version=1.3.1:Java applet::$
+20:application/x-java-applet;version=1.5:Java applet::$
+AdobeExManDetect.plugin:$
+/Library/Internet Plug-Ins/AdobeExManDetect.plugin:$
+AdobeExManDetect 1.1.0.0:$
+1390592071000:0:0:$
+A plugin to detect whether the Adobe Extension Manager is installed on this machine.:$
+AdobeExManDetect:$
+1
+0:application/x-adobeexmandetect:A plugin to detect whether the Adobe Extension Manager is installed on this machine.::$
+Picasa.plugin:$
+/Users/piermariacosina/Library/Internet Plug-Ins/Picasa.plugin:$
+1.0:$
+1387825589000:0:0:$
+Picasa plugin.:$
+Picasa:$
+1
+0:application/x-picasa-detect:3.1:picasa:$
+WacomNetscape.plugin:$
+/Library/Internet Plug-Ins/WacomNetscape.plugin:$
+2.1.0-1:$
+1378234031000:0:0:$
+:$
+Wacom Pressure Plug-In:$
+0
+WacomTabletPlugin.plugin:$
+/Library/Internet Plug-Ins/WacomTabletPlugin.plugin:$
+WacomTabletPlugin 2.1.0.2:$
+1378234011000:0:0:$
+Plugin for Wacom tablets.:$
+WacomTabletPlugin:$
+1
+0:application/x-wacomtabletplugin:Plugin for Wacom tablets.::$
+CitrixOmegaPlugin.0.1.0.63.plugin:$
+/Users/piermariacosina/Library/Internet Plug-Ins/CitrixOmegaPlugin.0.1.0.63.plugin:$
+CitrixOmegaPlugin 0.1.0.63:$
+1372295146000:0:0:$
+CitrixOmegaPlugin:$
+CitrixOmegaPlugin:$
+2
+0:application/x-citrixomega-window:Citrix Online Services 0.1.0.63::$
+1:application/x-citrixomega-collaboration:Citrix Online Services 0.1.0.63::$
+DivXBrowserPlugin.plugin:$
+/Library/Internet Plug-Ins/DivXBrowserPlugin.plugin:$
+2.2:$
+1360216161000:0:0:$
+DivX Plus Web Player version 2.2.2.14:$
+DivX Plus Web Player:$
+1
+0:video/divx:DivX Video File:divx,div:$
+Silverlight.plugin:$
+/Library/Internet Plug-Ins/Silverlight.plugin:$
+5.1.20125.0:$
+1359138826000:0:0:$
+5.1.20125.0:$
+Silverlight Plug-In:$
+2
+0:application/x-silverlight:Microsoft Silverlight:xaml:$
+1:application/x-silverlight-2:Microsoft Silverlight:xaml:$
+Unity Web Player.plugin:$
+/Library/Internet Plug-Ins/Unity Web Player.plugin:$
+UnityPlayer version 4.0.1f1:$
+1354902777000:0:0:$
+:$
+Unity Player:$
+1
+0:application/vnd.unity:Unity Player:unity3d:$
+
+[INVALID]
+/Library/Internet Plug-Ins/AdobePDFViewer.plugin:$
+1315232493000:$
+/Library/Internet Plug-Ins/Unused:$
+1355843271000:$
+/Library/Internet Plug-Ins/nsIQTScriptablePlugin.xpt:$
+1382568701000:$
+/Library/Internet Plug-Ins/Quartz Composer.webplugin:$
+1382568703000:$
+/Library/Internet Plug-Ins/flashplayer.xpt:$
+1403658673000:$
