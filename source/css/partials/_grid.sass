@@ -7,14 +7,16 @@ $grid-padding: 0.625em
 $container-style: fluid
 $border-box-sizing: true
 
+$break1: 10
 $break3: 12
 
+$screen1: 20em //320px
+$screen4: 60em //960px
 
-
-//@import "partials/draw_grid"
+@import "partials/draw_grid"
 
 .container
-  +container($total-columns,$break3)
+  +container($total-columns,$break1,$break3)
   
   -webkit-overflow-scrolling: touch
 
