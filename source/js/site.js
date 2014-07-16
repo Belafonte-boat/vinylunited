@@ -4,6 +4,20 @@
 //= require "fullpage.js/jquery.fullPage.min"
 
 $(document).ready(function() {
+    $("#footer #small-logo").click(function(e){
+        e.preventDefault;
+        $.fn.fullpage.moveTo('landing');
+    });
+    switch (window.location.pathname){
+        case "/":
+            $("li.en").hide();
+            $("li.it").show();
+            break;
+        case "/it/" :
+            $("li.en").show();
+            $("li.it").hide();
+            break;
+    }
 
     $("#menu").click(function(e){
         e.preventDefault;
