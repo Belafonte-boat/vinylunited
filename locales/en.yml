@@ -1,5 +1,5 @@
 ---
-it:
+en:
   url: "http://www.vinylunited.com/"
   description-meta_messages:  "Vinyl United website"
   landing:
@@ -36,21 +36,21 @@ it:
   whatwedo:
     title: "WHAT WE DO"
     main: "I nostri servizi includono:"
-    1: "COMMUNICATION STRATEGIES"
-    2: "BRANDS AND COMPANIES POSITIONING"
-    3: "HI-TECH ONE TO ONE COMMUNICATION"
-    4: "ABOVE AND BELOW THE LINE ADVERTISING"
-    5: "PROXIMITY COMMUNICATION"
-    6: "CONSUMER ENGAGEMENT"
-    7: "WEB/SOCIAL DIGITAL PROJECTS"
-    8: "MULTIPLATFORM APPS"
-    9: "B2B AND B2C COMMUNICATION PROJECTS"
-    10: "NEW PRODUCTS CONCEPT AND DESIGN"
-    11: "START UP: SCOUTING AND EVALUATION"
-    12: "COSTS & PERFORMANCES ASSESSMENT OF COMMUNICATION AGENCIES"
+    li1: "COMMUNICATION STRATEGIES"
+    li2: "BRANDS AND COMPANIES POSITIONING"
+    li3: "HI-TECH ONE TO ONE COMMUNICATION"
+    li4: "ABOVE AND BELOW THE LINE ADVERTISING"
+    li5: "PROXIMITY COMMUNICATION"
+    li6: "CONSUMER ENGAGEMENT"
+    li7: "WEB/SOCIAL DIGITAL PROJECTS"
+    li8: "MULTIPLATFORM APPS"
+    li9: "B2B AND B2C COMMUNICATION PROJECTS"
+    li10: "NEW PRODUCTS CONCEPT AND DESIGN"
+    li11: "START UP: SCOUTING AND EVALUATION"
+    li12: "COSTS & PERFORMANCES ASSESSMENT OF COMMUNICATION AGENCIES"
   ourvalues:
     title: "OUR VALUES"
-    intro: "Vinyl United is based on just a few, but determinant values"
+    main: "Vinyl United is based on just a few, but determinant values"
     title1: "QUALITY"
     main1:  "Every service provided must respect the highest quality standards, both in terms
              of thought as for its execution. All this is done in the total respect of our clients’
