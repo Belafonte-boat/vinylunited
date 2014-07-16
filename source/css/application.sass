@@ -221,30 +221,30 @@ body
     margin: auto
 
 
-+at-breakpoint($screen1)
-  .container
-    +susy-grid-background
-    position: relative
-    min-height: 550px
-    height: 100%
-  h2.title
 
-    h2.title
-    font-family: "lato", sans-serif
-    font-weight: 700
-    color: $aluminium
-    letter-spacing: px-to-em(3px,16px)
-    text-align: left
-    font-size: px-to-em(30px,16px)
-  p.main
-    +span-columns(5,6)
-    +pre(1,6)
-    font-weight: 300
-    font-family: "Muli", sans-serif
-    color: $loblolly
-    font-weight: px-to-em(16px,16px)
-    line-height: px-to-em(24px,16px)
-    text-align: left
+.container
+  +susy-grid-background
+  position: relative
+  min-height: 550px
+  height: 100%
+h2.title
+
+  h2.title
+  font-family: "lato", sans-serif
+  font-weight: 700
+  color: $aluminium
+  letter-spacing: px-to-em(3px,16px)
+  text-align: left
+  font-size: px-to-em(30px,16px)
+p.main
+  +span-columns(5,6)
+  +pre(1,6)
+  font-weight: 300
+  font-family: "Muli", sans-serif
+  color: $loblolly
+  font-weight: px-to-em(16px,16px)
+  line-height: px-to-em(24px,16px)
+  text-align: left
 +at-breakpoint($break3, $screen4)
   .container
     +susy-grid-background
