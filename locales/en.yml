@@ -2,14 +2,24 @@
 en:
   url: "http://www.vinylunited.com/"
   description-meta_messages:  "Vinyl United website"
+  menu:
+    li1: "About us"
+    li2: "How we work"
+    li3: "What we do"
+    li4: "Our experience"
+    li5: "Our values"
+    li6: "Our offices"
+    li7: "Contact us"
+
   landing:
     title: "COMMUNICATION & NEO-TECHNOLOGIES ADVISORS"
   aboutus:
     title: "ABOUT US"
     main: "Vinyl United is an international, independent company, specialized in high added value
-           communication consultancy, and consecrated to innovation. It presents itself as the ideal partner
-           for companies all over the world, which aspire to grow using the most appropriate tools for a
+           communication consultancy, and consecrated to innovation.<br /><br />
+           It presents itself as the ideal partner for companies all over the world, which aspire to grow using the most appropriate tools for a
            contemporary way to communicate.
+           <br /><br />
            Vinyl United offers a competitive advantage: its outstanding strategic – creative mindset and,
            above all, it gives its clients the opportunity of having a priority access to the ultimate technologies,
            still not in circulation, which can express any idea in the most effective way, before any other
@@ -17,25 +27,29 @@ en:
   partners:
     title: "PARTNERS"
     main: "Vinyl United was founded by three very experienced partners with different professional
-           backgrounds: Communication & Marketing, Business Hi-tech, Finance and Management. This rich
-           and widespread experience makes every Vinyl United project or service the most thorough and
+           backgrounds: Communication & Marketing, Business Hi-tech, Finance and Management.<br /><br />
+           This rich and widespread experience makes every Vinyl United project or service the most thorough and
            advanced product when compared to any other traditional or digital communication agency."
   howwework:
     title: "HOW WE WORK"
     main: "Every project is followed in first person by the founding partners. In this way we can fully guarantee
-           the quality of our thinking, compliance to deadlines and optimization of the expenses and
-           investments.
+           the quality of our thinking, compliance to deadlines and optimization of the costs and
+           investments.<br /><br />
            Every collaborator, whether local or international, has been selected for his or her talent,
-           specialization, reliability and cost for value. All this, together with the ease of having just one
-           person to relate to, gives to all Vinyl United projects an incomparable value, which can be unlikely
-           equalled by any other company."
+           specialization, reliability and cost for value.<br /><br />
+          All this, combined with the ease of having a single point person throughout the
+          process, gives all Vinyl United projects an incomparable value."
   ourexperiences:
-    title: "OUR EXPERIENCIES"
-    main: "Each of the three founding partners of Vinyl United has developed a significant experience working
-           as a consultant or as an entrepreneur for the most important national and international industries:"
+    title: "OUR EXPERIENCE"
+    main: "Each of the three founding partners of Vinyl United has developed significant
+           experience as a consultant or entrepreneur for significant national and international
+           industries:"
+    link: "BACK"
+  ourexperiences2:
+    link: "SEE MORE"
   whatwedo:
     title: "WHAT WE DO"
-    main: "I nostri servizi includono:"
+    main: "Our services include:"
     li1: "COMMUNICATION STRATEGIES"
     li2: "BRANDS AND COMPANIES POSITIONING"
     li3: "HI-TECH ONE TO ONE COMMUNICATION"
@@ -50,31 +64,42 @@ en:
     li12: "COSTS & PERFORMANCES ASSESSMENT OF COMMUNICATION AGENCIES"
   ourvalues:
     title: "OUR VALUES"
-    main: "Vinyl United is based on just a few, but determinant values"
+    main: "Vinyl United is based on a few, yet determinant values"
     title1: "QUALITY"
-    main1:  "Every service provided must respect the highest quality standards, both in terms
-             of thought as for its execution. All this is done in the total respect of our clients’
-             resources, with the same thriftiness, as if they were ours."
+    main1:  "Every service provided must respect the highest quality standards
+             both in concept and execution. All of this is accomplished with total respect to the
+             clients’ resources, using the same thriftiness as if they were our own."
     title2: "INTEGRITY"
-    main2:   "We handle every project with a deep ethical sense, transparency and honesty. We
-              always suggest our Clients the most convenient path and the most correct one for
-              their needs and requirements."
+    main2:   "We handle every project with a deep ethical sense, with transparency
+              and honesty. We guide our clients toward the most convenient path, the one most
+              in tune with their needs and requirements."
     title3: "CONSISTENCY"
-    main3:  "We often suggest challenging and non-conventional solutions, but we believe in our
-             ideas and we make sure to maintain always an independent point of view. It’s only
-             by confronting ourselves with contrasting opinions that the best projects and the
-             most useful services are created."
+    main3:  "We often suggest challenging and non-conventional solutions. We
+             believe in our ideas and make certain to maintain an objective point of view. By
+             confronting ourselves with contrasting opinions, we produce the best results and
+             the most useful services."
     title4: "RESPECT"
-    main4:  "Even though innovation is a fundamental part of our DNA, we respect the heritage
-            of thought and the history of all the Companies we work for. We know that true
-            innovation in communication becomes effective when it implants itself in a coherent
-            and soft way, without disrupting the Company’s original voice."
+    main4:  "Though innovation is a fundamental part of our DNA, we respect the
+             evolution and heritage of every company with which we collaborate. We know that
+             true innovation in communication is effective when it implants itself in a coherent
+             and soft way, without disrupting the Company’s original voice.."
   ourofficies:
-    title: "OUR OFFICIES"
+    title: "OUR OFFICES"
     main: "Siamo presenti a Milano, New York e San Francisco agli indirizzi che trovate indicati qui sotto."
   contactus:
     title: "CONTACT US"
-    main: "Whether you wish to meet us in person, or you have an issue that needs a solution and you
+    main: 'Whether you wish to meet us in person, or you have an issue that needs a solution and you
            would like our opinion, you can always contact us at any moment, by just writing to us to
-           Partners@vinylunited.com or filing in this form. We’ll call you back immediately."
-
+           <a href="mailto:partners@vinylunited.com">partners@vinylunited.com</a> or filling in this form.<br /> We’ll call you back immediately.'
+    form:
+          name: "Name"
+          lastname: "Last name"
+          phone: "Phone"
+          email: "Email"
+          message: "Message"
+          button: "SEND"
+  legal:
+    title:
+      "LEGAL"
+    credits: 'This website is born thanks to<br /> the spark of design and innovation bewteen<br /> <a href="http://vinylunited.com">Vinyl United</a> and <a href="http://belafonte.co">Belafonte</a><br /><br />'
+    legal: 'Vinyl United s.r.l. Via Conservatorio 17, 20122 Milano Italia REA MI-2040356 PEC <a href="mailto:vinylunited@legalmail.it">vinylunited@legalmail.it</a> CF/PIVA 08660840961'

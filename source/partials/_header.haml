@@ -1,30 +1,30 @@
 #header
-  #menu
+  #menu.active
     %i.fa.fa-bars.hamburger
   #menu-open
     .container
       %ul
         %li{:"data-menuanchor"=>"aboutus"}
           %a{href:"#aboutus"}
-            About us
+            = t("menu.li1")
         %li{:"data-menuanchor"=>"howwework"}
           %a{href:"#howwework"}
-            How we work
+            = t("menu.li2")
         %li{:"data-menuanchor"=>"whatwedo"}
           %a{href:"#howwework/1"}
-            What we do
-        %li{:"data-menuanchor"=>"ourexperiences"}
-          %a{href:"#ourexperiences"}
-            Our experiences
+            = t("menu.li3")
+        %li{:"data-menuanchor"=>"ourexperience"}
+          %a{href:"#ourexperience"}
+            = t("menu.li4")
         %li{:"data-menuanchor"=>"ourvalues"}
           %a{href:"#ourvalues"}
-            Our values
-        %li{:"data-menuanchor"=>"ouroffices"}
-          %a{href:"#ouroffices"}
-            Our offices
+            = t("menu.li5")
+        %li{:"data-menuanchor"=>"ourofficies"}
+          %a{href:"#ourofficies"}
+            = t("menu.li6")
         %li{:"data-menuanchor"=>"contactus"}
           %a{href:"#ouroffices/1"}
-            Contact us
+            = t("menu.li7")
   #lang
     %ul
       %li.en

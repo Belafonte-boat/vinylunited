@@ -2,26 +2,36 @@
 it:
   url: "http://www.vinylunited.com/"
   description-meta_messages:  "Vinyl United website"
+  menu:
+      li1: "Chi siamo"
+      li2: "Come lavoriamo"
+      li3: "Cosa facciamo"
+      li4: "La nostra esperienza"
+      li5: "I nostri valori"
+      li6: "Dove siamo"
+      li7: "Contattaci"
   landing:
     title: "COMMUNICATION & NEO-TECHNOLOGIES ADVISORS"
   aboutus:
-    title: "ABOUT US"
-    main: "Vinyl United è una società internazionale indipendente che offre consulenza di comunicazione ad alto valore aggiunto ed improntata all’innovazione.
-           Si propone come partner di aziende di tutto il mondo che hanno l’ambizione di crescere utilizzando gli strumenti piu’adatti per comunicare in modo contemporaneo.
+    title: "CHI SIAMO"
+    main: "Vinyl United è una società internazionale indipendente che offre consulenza di comunicazione ad alto valore aggiunto ed improntata all’innovazione.<br /><br />
+           Si propone come partner di aziende di tutto il mondo che hanno l’ambizione di crescere utilizzando gli strumenti piu’adatti per comunicare in modo contemporaneo.<br /><br />
            Il vantaggio competitivo che offre Vinyl United e’ quello di accedere ad un pensiero strategico - creativo di assoluta eccellenza e, soprattutto in via privilegiata, a ogni nuova tecnologia capace di esprimerlo con maggior efficacia."
   partners:
     title: "PARTNERS"
-    main: "Vinyl United è stata fondata da tre soci di grande esperienza provenienti da settori professionali differenti: Comunicazione e Marketing, Imprenditoria Hi-Tech, finanza e gestione di impresa.
+    main: "Vinyl United è stata fondata da tre soci di grande esperienza provenienti da settori professionali differenti: Comunicazione e Marketing, Imprenditoria Hi-Tech, finanza e gestione di impresa.<br /><br />
            Questa ricchezza di esperienze rende ogni progetto, di comunicazione o servizio fornito da Vinyl United, più approfondito e avanzato di qualunque altro prodotto realizzato dalle consuete agenzie di comunicazione, sia tradizionali sia digitali."
   howwework:
-    title: "HOW WE WORK"
-    main: "Ogni incarico che riceviamo è seguito in prima persona da uno dei soci fondatori a garanzia della qualità del pensiero, del rispetto dei tempi e dell’ottimizzazione dei costi.
-           Ogni nostro collaboratore, nazionale o internazionale, è stato selezionato per talento, specializzazione, serietà e rapporto qualità/costo. Questo, assieme alla semplicità di avere un interlocutore unico, dà a ogni progetto sviluppato da Vinyl United, un valore difficilmente pareggiabile da qualsiasi altra società."
+    title: "COME LAVORIAMO"
+    main: "Ogni incarico che riceviamo è seguito in prima persona da uno dei soci fondatori a garanzia della qualità del pensiero, del rispetto dei tempi e dell’ottimizzazione dei costi.<br /><br />
+           Ogni nostro collaboratore, nazionale o internazionale, è stato selezionato per talento, specializzazione, serietà e rapporto qualità/costo.<br /><br />
+           Questo, assieme alla semplicità di avere un interlocutore unico, dà a ogni progetto sviluppato da Vinyl United, un valore difficilmente pareggiabile da qualsiasi altra società."
   ourexperiences:
-    title: "OUR EXPERIENCIES"
-    main: "Ognuno dei tre soci fondatori di Vinyl United ha maturato significative esperienze lavorando come consulente o come imprenditore per le più importanti industries nazionali e internazionali:"
+    title: "LA NOSTRA ESPERIENZA"
+    main: "Ognuno dei tre soci fondatori di Vinyl United ha maturato significative esperienze lavorando come consulente o come imprenditore per le più importanti aziende nazionali e internazionali:"
+    link: "INDIETRO"
   whatwedo:
-    title: "WHAT WE DO"
+    title: "COSA FACCIAMO"
     main: "I nostri servizi includono:"
     li1: "STRATEGIA DI COMUNICAZIONI"
     li2: "POSIZIONAMENTO BRAND E AZIENDE"
@@ -36,9 +46,9 @@ it:
     li11: "START UP: SCOUTING E VALUTAZIONE"
     li12: "COSTS & PERFORMANCES ASSESSMENT OF COMMUNICATION AGENCIES"
   ourvalues:
-    title: "OUR VALUES"
+    title: "I NOSTRI VALORI"
     main: "Vinyl United è stata fondata su pochi ma fondamentali valori:"
-    title1: "QUALITA'"
+    title1: "QUALITÁ"
     main1:  "Ogni servizio fornito deve rispettare i più alti standard qualitativi sia in termini di pensiero sia di esecuzione. Tutto questo impiegando le risorse dei nostri clienti con la stessa attenzione e parsimonia che avremmo se queste fossero le nostre."
     title2: "INTEGRITA'"
     main2:   "Affrontiamo ogni progetto con un profondo senso dell’etica, con totale trasparenza ed onestà. Suggeriamo sempre la via più conveniente e corretta per i nostri Clienti, tutelando in ogni moda i loro interessi."
@@ -47,9 +57,20 @@ it:
     title4: "RISPETTO"
     main4:  "Pur avendo l’innovazione come parte fondamentale del nostro DNA, rispettiamo il patrimonio di pensiero e la storia di ogni Azienda per la quale lavoriamo. Sappiamo che la vera innovazione in comunicazione è efficace quando s’innesta con coerenza e delicatezza e non stravolge la voce dell’Azienda."
   ourofficies:
-    title: "OUR OFFICIES"
-    main: "Siamo presenti a Milano, New York e San Francisco agli indirizzi che trovate indicati qui sotto."
+    title: "DOVE SIAMO"
+    main: "Siamo presenti a Milano, New York e San Francisco a questi indirizzi:"
   contactus:
-    title: "CONTACT US"
-    main: "Se volete conoscerci di persona, avete una soluzione da trovare e desiderate un nostro consiglio, potete contattarci in ogni momento scrivendoci o compilando il form qui accanto."
-
+    title: "CONTATTACI"
+    main: 'Se volete conoscerci di persona, avete una soluzione da trovare e desiderate un nostro consiglio, potete contattarci in ogni momento scrivendoci a <a href="mailto:partners@vinylunited.com">partners@vinylunited.com</a> o compilando il form qui accanto.<br /> Vi ricontatteremo immediatamente.'
+    form:
+      name: "Nome"
+      lastname: "Cognome"
+      phone: "Telefono"
+      email: "Email"
+      message: "Messaggio"
+      button: "INVIA"
+  legal:
+    title:
+      "LEGAL"
+    credits: "Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis."
+    legal: "Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis."

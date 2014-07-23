@@ -1,20 +1,22 @@
 #partners-section
-
-
+  +span-columns(6,6)
+  a
+    color: $new-york-pink
+    text-decoration: none
   #partners-group
-    border-left: 1px solid $new-york-pink
-    +span-columns(4,12)
+    +span-columns(5,6)
+    +pre(1,6)
   .partner
-    +span-columns(4,4)
+    +span-columns(5,5)
 
     .avatar
-      +span-columns(1,4)
-      +pre(1,4)
+      +span-columns(2,5)
+
     img
       +border-radius(45px)
       margin: 0 auto 20px 0
     .info
-      +span-columns(2 omega,4)
+      +span-columns(3 omega,5)
       text-align: left
 
       h3.name
@@ -28,9 +30,24 @@
         font-family: "Muli", sans-serif
         font-size: px-to-em(14px,16px)
         margin: 0.5em 0
-      a
-        color: $new-york-pink
+        color: $aluminium
 
 
++at-breakpoint($screen4 $break3)
+  #partners-section
+    +span-columns(12,12)
+    #partners-group
+      border-left: 1px solid $new-york-pink
+      +span-columns(4,12)
+      +pre(0)
+    .partner
+      +span-columns(4,4)
+
+      .avatar
+        +span-columns(1,4)
+        +pre(1,4)
+
+      .info
+        +span-columns(2 omega,4)
 
 

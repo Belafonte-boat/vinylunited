@@ -1,10 +1,6 @@
 #partners-section
   .container
-    .arrow-left
-      #aboutus-link
-        %span
-          = t("aboutus.title")
-        .asset
+
     %h2.title
       = t("partners.title")
     %p.main
@@ -12,7 +8,7 @@
     #partners-group
       .partner
         .avatar
-          %img{src:lorem.image('90x90')}
+          = image_tag "vinyl_guido.png"
         .info
           %h3.name
             Guido Chiovato
@@ -20,27 +16,32 @@
             CEO&Executive Partner
           %p.link
             %a{href:"http://linkedinprofile.com", target: "_blank"}
-              http://linkedinprofile.com
+              Linkedin profile
       .partner
         .avatar
-          %img{src:lorem.image('90x90')}
+          = image_tag "vinyl_adriano.png"
         .info
           %h3.name
-            Guido Chiovato
+            Adriano Marconetto
           %p.position
-            CEO&Executive Partner
+            Executive Partner
           %p.link
             %a{href:"http://linkedinprofile.com", target: "_blank"}
-              http://linkedinprofile.com
+              Linkedin profile
       .partner
         .avatar
-          %img{src:lorem.image('90x90')}
+          = image_tag "vinyl_marco.png"
         .info
           %h3.name
-            Guido Chiovato
+            Marco Caserta
           %p.position
-            CEO&Executive Partner
+            Executive Partner
           %p.link
             %a{href:"http://linkedinprofile.com", target: "_blank"}
-              http://linkedinprofile.com
-    #vertical-line
+              Linkedin profile
+    .arrow-left
+      #aboutus-link
+        %span
+          = t("aboutus.title")
+        .asset
+  .space

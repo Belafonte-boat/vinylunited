@@ -9,28 +9,35 @@
         %li
           %h3
             Guido Chiovato
-          %p
-            CEO&Executive Partner
+            %span
+              | CEO&Executive Partner
           %p
             %a{href:"mailto:guido.chiovato@vinylunited.com"}guido.chiovato@vinylunited.com
         %li
           %h3
             Adriano Marconetto
-          %p
-            Executive Partner
+            %span
+              | Executive Partner
           %p
             %a{href:"mailto:adriano.marconetto@vinylunited.com"}adriano.marconetto@vinylunited.com
         %li
           %h3
             Marco Caserta
-          %p
-            Executive Partner
+            %span
+              | Executive Partner
           %p
             %a{href:"mailto:marco.caserta@vinylunited.com"}marco.caserta@vinylunited.com
-
+    .right
+      %form.contact-form{action: "form_data.php", method: "post", novalidate: ""}
+        %input#name.form-name{name: "name", placeholder: I18n.t("contactus.form.name"), type: "text"}/
+        %input#lastname.form-email{name: "lastname", placeholder: I18n.t("contactus.form.lastname"), type: "text"}/
+        %input#phone.form-email{name: "phone", placeholder: I18n.t("contactus.form.phone"), type: "text"}/
+        %input#email.form-email{name: "email", placeholder: I18n.t("contactus.form.email"), type: "email"}/
+        %textarea#message.form-message{name: "message", placeholder: I18n.t("contactus.form.message")}
+        %input{type:"submit", value:I18n.t("contactus.form.button")}
     .arrow-left
       #ouroffices-link
         %span
-          OUR OFFICES
+          = t("ourofficies.title")
         .asset
-
+  .space

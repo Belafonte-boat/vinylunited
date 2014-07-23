@@ -1,34 +1,34 @@
 #ouroffices-section
   .container
     %h2.title
-      = t("ourvalues.title")
+      = t("ourofficies.title")
     %p.main
-      = t("ourvalues.main")
+      = t("ourofficies.main")
     .spacer
       %ul
         %li
           %h3
-            MILAN
+            MILANO
           %p
             Piazza 4 Novembre 7,
             %br/
-            Milan, IT
+            Milano,
             %br/
-            20124
+            20124 (ITALY)
             %br/
-            +39 02 87343418
+
           = image_tag "vinyl_milan.png"
         %li
           %h3
             NEW YORK
           %p
-            379 West Brodway
+            379 W. Broadway
             %br/
-            New york, NY
+            New York, NY
             %br/
-            10012
+            10012 (USA)
             %br/
-            +1 855 593 9675
+            %br/
           = image_tag "vinyl_new_york.png"
         %li
           %h3
@@ -38,13 +38,18 @@
             %br/
             San Francisco, CA
             %br/
-            94102
+            94102 (USA)
             %br/
-            +1 415 858 1505
+            %br/
           = image_tag "vinyl_frisco.png"
     .arrow-right
       #contactus-link
         %span
-          CONTACT US
+          = t("contactus.title")
         .asset
-
+  .arrow-down.short
+    %a{href:"#legal"}
+      .asset
+      %span
+        = t("legal.title")
+  .space

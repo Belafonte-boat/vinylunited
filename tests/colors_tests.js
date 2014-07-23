@@ -25,13 +25,13 @@ module.exports = {
     'Section title color is correct': function (test) {
         test
             .open('http://0.0.0.0:4567')
-            .assert.css('.section h2.title', 'color','rgba(136, 138, 141, 1)')
+            .assert.css('.section h2.title', 'color','rgba(165, 163, 161, 1)')
             .done();
     },
     'Section paragraph color is correct': function (test) {
         test
             .open('http://0.0.0.0:4567')
-            .assert.css('.section p.main', 'color','rgba(183, 183, 183, 1)')
+            .assert.css('.section p.main', 'color','rgba(136, 138, 141, 1)')
             .done();
     },
     'Section category title color is correct': function (test) {
@@ -43,7 +43,13 @@ module.exports = {
     'Section category item color is correct': function (test) {
         test
             .open('http://0.0.0.0:4567')
-            .assert.css('.section .category li', 'color','rgba(165, 163, 161, 1)')
+            .assert.css('.section .category li', 'color','rgba(136, 138, 141, 1)')
+            .done();
+    },
+    'CLAIM  color is correct': function (test) {
+        test
+            .open('http://0.0.0.0:4567')
+            .assert.css('.section h1', 'color','rgba(165, 163, 161, 1)')
             .done();
     }
 };

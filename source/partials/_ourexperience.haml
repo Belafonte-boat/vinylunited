@@ -1,14 +1,14 @@
-#ourexperiences-section
+#ourexperience-section
   .container
     %h2.title
-      OUR EXPERIENCES
+      = t("ourexperiences.title")
     %p.main
-      Ognuno dei tre soci fondatori di Vinyl United ha maturato significative esperienze lavorando come consulente o come imprenditore per le più importanti industries  nazionali e internazionali:
+      = t("ourexperiences.main")
     .spacer
       .category
         %h3
           AUTOMOTIVE
-        %ul
+        %ul.one
           %li
             ABARTH
           %li
@@ -31,8 +31,8 @@
             MASERATI
       .category
         %h3
-          LUXURY GOODS AND LIFESTYLE
-        %ul
+          LUXURY GOODS <br />AND LIFESTYLE
+        %ul.two
           %li
             BULGARI
           %li
@@ -50,11 +50,11 @@
           %li
             MORELLATO JEWELS
           %li
-            SILVER SEA LUXURY CRUISES
+            SILVER SEA CRUISES
       .category
         %h3
           TECHNOLOGY
-        %ul
+        %ul.three
           %li
             IBM
           %li
@@ -70,7 +70,7 @@
       .category
         %h3
           FOOD AND BEVERAGES
-        %ul
+        %ul.four
           %li
             BAULI
           %li
@@ -88,9 +88,12 @@
 
     .arrow-right
       #experience2-link
-        .small-asset
-  .arrow-down
+        %span
+          = t("ourexperiences2.link")
+        .asset
+  .arrow-down.short
     %a{href:"#ourvalues"}
       .asset
       %span
-        OUR VALUES
+        = t("ourvalues.title")
+  .space

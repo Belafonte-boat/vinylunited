@@ -15,17 +15,12 @@
 $legacy-support-for-ie: true
 
 $onyx-black: #101010
-
-$loblolly: #B7B7B7
-
-$westar: #D6D1C4
-
 $new-york-pink: #D78772
 
 $white: #FFFFFF
-
+$westar: #D6D1C4
+$loblolly: #B7B7B7
 $foggy-gray: #A5A3A1
-
 $aluminium: #888A8D
 
 
@@ -37,7 +32,8 @@ $aluminium: #888A8D
 @import partials/comingsoon
 @import partials/howwework
 @import partials/whatwedo
-@import partials/ourexperiences
+@import partials/ourexperience
+@import partials/legal
 
 
 
@@ -135,49 +131,19 @@ body
   display: none
 
 
-
-
-
-
-.arrow-down
-  position: absolute
-  bottom: 20px
-  width: 150px
-  left: 50%
-  margin-left: - 75px
-  .asset
-    background: image-url("vinyl_arrow_down.png") no-repeat top left
-    width: image-width("vinyl_arrow_down.png")
-    height: image-height("vinyl_arrow_down.png")
-    margin: 0 auto 10px auto
-  a
-    text-decoration: none
-    &:hover
-      span
-        text-decoration: underline
-
-  span
-    font-family: "Muli", sans-serif
-    font-size: px-to-em(16px,16px)
-    font-weight: 400
-    color: $new-york-pink
-    text-transform: uppercase
-
-
-.wide
-  .arrow-down
-    left: 25%
-
 .arrow-left
-  position: absolute
-  left: 20px
+  position: static
+  +float-left
+  width: 140px
+  display: inline-block
   cursor: pointer
-  top: 50%
 
   span
     font-family: "Muli", sans-serif
-    font-size: px-to-em(14px,16px)
+    font-size: px-to-em(12px,16px)
     font-weight: 400
+    text-transform: uppercase
+    letter-spacing: px-to-em(3px,16px)
     color: $new-york-pink
     text-align: right
     display: block
@@ -193,46 +159,20 @@ body
     width: image-width("vinyl_small_arrow_left.png")
     height: image-height("vinyl_small_arrow_left.png")
     margin: auto
-.arrow-right
-  position: absolute
-  right: 20px
 
-  top: 50%
-
-  cursor: pointer
-  span
-    font-family: "Muli", sans-serif
-    font-size: px-to-em(14px,16px)
-    font-weight: 400
-    color: $new-york-pink
-    text-align: left
-    display: block
-    margin-bottom: -8px
-
-  .asset
-    background: image-url("vinyl_arrow_right.png") no-repeat top left
-    width: image-width("vinyl_arrow_right.png")
-    height: image-height("vinyl_arrow_right.png")
-    margin: auto
-  .small-asset
-    background: image-url("vinyl_small_arrow_right.png") no-repeat top left
-    width: image-width("vinyl_small_arrow_right.png")
-    height: image-height("vinyl_small_arrow_right.png")
-    margin: auto
 
 
 
 .container
-  +susy-grid-background
-  position: relative
-  min-height: 550px
-  height: 100%
-h2.title
 
-  h2.title
+  position: relative
+  height: 100%
+
+
+h2.title
   font-family: "lato", sans-serif
-  font-weight: 700
-  color: $aluminium
+  font-weight: 400
+  color: $foggy-gray
   letter-spacing: px-to-em(3px,16px)
   text-align: left
   font-size: px-to-em(30px,16px)
@@ -241,19 +181,164 @@ p.main
   +pre(1,6)
   font-weight: 300
   font-family: "Muli", sans-serif
-  color: $loblolly
+  color: $aluminium
   font-weight: px-to-em(16px,16px)
   line-height: px-to-em(24px,16px)
   text-align: left
-+at-breakpoint($break3, $screen4)
+.arrow-right
+  position: static
+  +float-right
+  width: 140px
+  display: inline-block
+  cursor: pointer
+  span
+    font-family: "Muli", sans-serif
+    font-size: px-to-em(12px,16px)
+    font-weight: 400
+    text-transform: uppercase
+    letter-spacing: px-to-em(3px,16px)
+    color: $new-york-pink
+    text-align: left
+    display: block
+    margin-bottom: -8px
+    width: 200px
+
+
+  .asset
+    background: image-url("vinyl_arrow_right.png") no-repeat top right
+    width: image-width("vinyl_arrow_right.png")
+    height: image-height("vinyl_arrow_right.png")
+    width: 100%
+  .small-asset
+    background: image-url("vinyl_small_arrow_right.png") no-repeat top right
+    width: image-width("vinyl_small_arrow_right.png")
+    height: image-height("vinyl_small_arrow_right.png")
+    width: 100%
+.arrow-down
+  display: none
+
+.slide, .section
+  background-size: 100%
+  background-position: top left
+.section, .slide
   .container
-    +susy-grid-background
+    margin-top: 200px
+.space
+  +span-columns(6,6)
+  height: 100px
+h2.title
+  +span-columns(6,6)
+
+#landing-section
+  .container
+    margin-top: 0
+
++at-breakpoint($break3, $screen4)
+  .space
+    display: none
+  .slide
+    background-size: cover
+    background-position: center center
+  .section, .slide
+    .container
+      margin-top: 0
+
+  .arrow-left
+    position: absolute
+    left: 20px
+    cursor: pointer
+    top: 50%
+
+    span
+      font-family: "Muli", sans-serif
+      font-size: px-to-em(12px,16px)
+      font-weight: 400
+      text-transform: uppercase
+      letter-spacing: px-to-em(3px,16px)
+      color: $new-york-pink
+      text-align: right
+      display: block
+      margin-bottom: -8px
+
+    .asset
+      background: image-url("vinyl_arrow_left.png") no-repeat top left
+      width: image-width("vinyl_arrow_left.png")
+      height: image-height("vinyl_arrow_left.png")
+      margin: auto
+    .small-asset
+      background: image-url("vinyl_small_arrow_left.png") no-repeat top left
+      width: image-width("vinyl_small_arrow_left.png")
+      height: image-height("vinyl_small_arrow_left.png")
+      margin: auto
+  .arrow-right
+    position: absolute
+    right: 20px
+
+    top: 50%
+
+    cursor: pointer
+    span
+      font-family: "Muli", sans-serif
+      font-size: px-to-em(12px,16px)
+      font-weight: 400
+      text-transform: uppercase
+      letter-spacing: px-to-em(3px,16px)
+      color: $new-york-pink
+      text-align: left
+      display: block
+      margin-bottom: -8px
+
+    .asset
+      background: image-url("vinyl_arrow_right.png") no-repeat top left
+      width: image-width("vinyl_arrow_right.png")
+      height: image-height("vinyl_arrow_right.png")
+      margin: auto
+    .small-asset
+      background: image-url("vinyl_small_arrow_right.png") no-repeat top left
+      width: image-width("vinyl_small_arrow_right.png")
+      height: image-height("vinyl_small_arrow_right.png")
+      margin: auto
+  .arrow-down
+    position: absolute
+    display: block
+    bottom: 20px
+    width: 200px
+    left: 50%
+    margin-left: - 100px
+    .asset
+      background: image-url("vinyl_arrow_down.png") no-repeat bottom left
+      width: image-width("vinyl_arrow_down.png")
+      height: image-height("vinyl_arrow_down.png")
+      margin: 0 auto 10px auto
+    a
+      text-decoration: none
+      display: block
+      &:hover
+        span
+    &.short
+      .asset
+        height: 70px
+
+    span
+      font-family: "Muli", sans-serif
+      font-size: px-to-em(12px,16px)
+      font-weight: 400
+      color: $new-york-pink
+      text-transform: uppercase
+      letter-spacing: px-to-em(3px,16px)
+
+
+  .wide
+    .arrow-down
+      left: 25%
+
   .section
     +span-columns(12,12)
 
 
   h2.title
 
+    +span-columns(5,12)
     +pre(1,12)
   p.main
 

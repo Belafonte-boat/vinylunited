@@ -5,30 +5,34 @@
     %p.main
       = t("ourvalues.main")
     .spacer
-      .value
-        %h3
-          = t("ourvalues.title1")
-        %p
-          = t("ourvalues.main1")
-      .value
-        %h3
-          = t("ourvalues.title2")
-        %p
-          = t("ourvalues.main2")
-      .value
-        %h3
-          = t("ourvalues.title3")
-        %p
-          = t("ourvalues.main3")
-      .value
-        %h3
-          = t("ourvalues.title4")
-        %p
-          = t("ourvalues.main4")
-  .arrow-down
-    %a{href:"#ouroffices"}
+      .value.one
+        .text
+          %h3
+            = t("ourvalues.title1")
+          %p
+            = t("ourvalues.main1")
+      .value.two
+        .text
+          %h3
+            = t("ourvalues.title2")
+          %p
+            = t("ourvalues.main2")
+      .value.three
+        .text
+          %h3
+            = t("ourvalues.title3")
+          %p
+            = t("ourvalues.main3")
+      .value.four
+        .text
+          %h3
+            = t("ourvalues.title4")
+          %p
+            = t("ourvalues.main4")
+  .arrow-down.short
+    %a{href:"#ourofficies"}
       .asset
       %span
-        OUR OFFICES
-
+        = t("ourofficies.title")
+  .space
 

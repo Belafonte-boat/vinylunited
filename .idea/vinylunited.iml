@@ -5,9 +5,9 @@
     <option name="compassSupportEnabled" value="true" />
     <option name="importPaths">
       <list>
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@middleman/gems/compass-0.12.7/frameworks/blueprint/stylesheets" />
         <option value="$USER_HOME$/.compass/extensions/readme.txt/stylesheets" />
-        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@middleman/gems/compass-0.12.6/frameworks/blueprint/stylesheets" />
-        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@middleman/gems/compass-0.12.6/frameworks/compass/stylesheets" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@middleman/gems/compass-0.12.7/frameworks/compass/stylesheets" />
       </list>
     </option>
   </component>

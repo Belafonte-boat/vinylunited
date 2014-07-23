@@ -1,16 +1,19 @@
 #whatwedo-section
+
   .spacer
-    +pre(2,12)
-    +span-columns(8,12)
+    +pre(1,6)
+    +span-columns(5,6)
     border-top: 1px solid $new-york-pink
   .left
-    +span-columns(4,8)
+    +span-columns(5,5)
+    margin-top: 1em
   .right
-    +span-columns(4 omega,8)
+    +span-columns(5,5)
+    margin-bottom: 1em
   ul
     +pretty-bullets("vinyl_dot-list.png")
     padding-left: 0
-    margin-left: 0
+    margin: 0
 
     text-align: left
 
@@ -21,8 +24,20 @@
     font-weight: px-to-em(16px,16px)
 
     li
-      background-position: 0 3px
+      background-position: 0 5px
       padding-left: 24px
-      height: 30px
-      color: #b7b7b7
+      min-height: 40px
+      color: $aluminium
+      letter-spacing: px-to-em(2px,16px)
 
++at-breakpoint($screen4 $break3)
+  #whatwedo-section
+    .spacer
+      +pre(2,12)
+      +span-columns(8,12)
+    .left
+      +span-columns(4,8)
+      margin: 1em 0
+    .right
+      +span-columns(4 omega,8)
+      margin: 1em 0

@@ -55,30 +55,30 @@ module.exports = {
     },
     'OUR EXPERIENCES arrow right to OUR EXPERIENCES2 is correct': function (test) {
         test
-            .open('http://0.0.0.0:4567/#ourexperiences')
+            .open('http://0.0.0.0:4567/#ourexperience')
             .wait(1000)
-            .assert.visible('#ourexperiences-section .arrow-right', 'Arrow is visible')
+            .assert.visible('#ourexperience-section .arrow-right', 'Arrow is visible')
 
             .click("#experience2-link")
             .wait(1000)
-            .assert.visible('#ourexperiences2-section', 'Section is visible')
+            .assert.visible('#ourexperience2-section', 'Section is visible')
             .screenshot('tests/screenshots/slide/ourexperiences2.png')
             .done();
     },
     'OUR EXPERIENCES2 arrow left to OUR EXPERIENCES is correct': function (test) {
         test
-            .open('http://0.0.0.0:4567/#ourexperiences/1')
+            .open('http://0.0.0.0:4567/#ourexperience/1')
             .wait(3000)
-            .assert.visible('#ourexperiences2-section .arrow-left', 'Arrow is visible')
+            .assert.visible('#ourexperience2-section .arrow-left', 'Arrow is visible')
             .click("#experience-link")
             .wait(1000)
-            .assert.visible('#ourexperiences-section', 'Section is visible')
+            .assert.visible('#ourexperience-section', 'Section is visible')
             .screenshot('tests/screenshots/slide/ourexperiences.png')
             .done();
     },
     'OUR OFFICES arrow right to CONTACT US is correct': function (test) {
         test
-            .open('http://0.0.0.0:4567/#ouroffices')
+            .open('http://0.0.0.0:4567/#ourofficies')
             .wait(1000)
             .assert.visible('#ouroffices-section .arrow-right', 'Arrow is visible')
             .assert.text('#ouroffices-section .arrow-right span').is('CONTACT US', 'Title is correct')
@@ -90,7 +90,7 @@ module.exports = {
     },
     'CONTACT US arrow left to OUR OFFICES is correct': function (test) {
         test
-            .open('http://0.0.0.0:4567/#ouroffices/1')
+            .open('http://0.0.0.0:4567/#ourofficies/1')
             .wait(3000)
             .assert.visible('#contactus-section .arrow-left', 'Arrow is visible')
             .assert.text('#contactus-section .arrow-left span').is('OUR OFFICES', 'Title is correct')

@@ -2,10 +2,83 @@
 //= require "jquery.slimscroll/jquery.slimscroll.min"
 //= require "jquery.easing/js/jquery.easing.min"
 //= require "fullpage.js/jquery.fullPage.min"
+//= require "enquire/dist/enquire.min"
+
+$( window ).resize(function() {
+    location.reload();
+});
+
+
+var isMobile= false;
+enquire
+    .register("screen and (max-width:69.9em)",  {
+
+        match : function() {
+
+
+
+
+
+        },
+
+        // OPTIONAL
+        // If supplied, triggered when the media query transitions
+        // *from a matched state to an unmatched state*.
+        unmatch : function() {},
+
+        // OPTIONAL
+        // If supplied, triggered once, when the handler is registered.
+        setup : function() {
+            isMobile = true;
+            $(document).ready(function() {
+
+            });
+
+
+        },
+
+        // OPTIONAL, defaults to false
+        // If set to true, defers execution of the setup function
+        // until the first time the media query is matched
+        deferSetup : true
+    })
+    .register("screen and (min-width: 70em)", {
+
+        deferSetup : true,
+        setup : function() {
+            isMobile = false;
+            $(document).ready(function(){
+
+
+            });
+        },
+        match : function() {
+
+        },
+        unmatch : function() {
+
+        }
+
+    });
+
+
+function menuAppear(){
+
+        $("#menu-open").fadeOut(600);
+
+        if ($("#footer").is(":hidden")) {
+            $("#footer").fadeIn(600);
+        }
+
+}
 
 $(document).ready(function() {
+    if(isMobile == false) {
+        $("#menu-open").fadeIn(600);
+
+    }
     $("#footer #small-logo").click(function(e){
-        e.preventDefault;
+        e.preventDefault();
         $.fn.fullpage.moveTo('landing');
     });
     switch (window.location.pathname){
@@ -19,8 +92,24 @@ $(document).ready(function() {
             break;
     }
 
+    $("li.en a").click(function(e){
+
+        e.preventDefault();
+        params = window.location.hash;
+        link = $(this).attr("href");
+        console.log(link+params);
+        window.location = link + params;
+    });
+    $("li.it a").click(function(e){
+        e.preventDefault();
+        params = window.location.hash;
+        link = $(this).attr("href");
+        console.log(link+params);
+        window.location = link + params;
+    });
+
     $("#menu").click(function(e){
-        e.preventDefault;
+        e.preventDefault();
         $("#menu-open").fadeToggle(600);
     });
     $('#fullpage').fullpage({
@@ -32,32 +121,24 @@ $(document).ready(function() {
         autoScrolling: true,
         slidesNavigation: false,
         navigation: false,
+        scrollOverflow: true,
         menu: "#menu-open",
-        anchors:['landing', 'aboutus','howwework','ourexperiences','ourvalues','ouroffices'],
+        anchors:['landing', 'aboutus','howwework','ourexperience','ourvalues','ourofficies','legal'],
         onSlideLeave: function( anchorLink, index, slideIndex, direction){
-            $("#menu-open").fadeOut(600);
-
-            if( $("#footer").is(":hidden")) {
-                $("#footer").fadeIn(600);
-            }
-
-
+            menuAppear()
             },
         onLeave: function(index, direction){
-
-
-            $("#menu-open").fadeOut(600);
-
-            if( $("#footer").is(":hidden")) {
-                $("#footer").fadeIn(600);
-            }
+            menuAppear()
         },
         afterLoad: function(anchorLink, index){
 
+            if(isMobile == false) {
+                //using anchorLink
+                if (anchorLink == 'landing') {
+                    $("#footer").fadeOut(600);
+                    $("#menu-open").fadeIn(600);
+                }
 
-            //using anchorLink
-            if(anchorLink == 'landing'){
-                $("#footer").fadeOut(600);
             }
         }
     });
@@ -86,5 +167,26 @@ $(document).ready(function() {
     $("#ouroffices-link").click(function(e){
         $.fn.fullpage.moveSlideLeft();
     });
+
+    $("ul.one li").sort(asc_sort).appendTo('ul.one');
+    $("ul.two li").sort(asc_sort).appendTo('ul.two');
+    $("ul.three li").sort(asc_sort).appendTo('ul.three');
+    $("ul.four li").sort(asc_sort).appendTo('ul.four');
+    $("ul.five li").sort(asc_sort).appendTo('ul.five');
+    $("ul.six li").sort(asc_sort).appendTo('ul.six');
+    $("ul.seven li").sort(asc_sort).appendTo('ul.seven');
+    $("ul.eight li").sort(asc_sort).appendTo('ul.eight');
+    $("ul.nine li").sort(asc_sort).appendTo('ul.nine');
+    $("ul.ten li").sort(asc_sort).appendTo('ul.ten');
+
+// accending sort
+    function asc_sort(a, b){
+        return ($(b).text()) < ($(a).text()) ? 1 : -1;
+    }
+
+// decending sort
+    function dec_sort(a, b){
+        return ($(b).text()) > ($(a).text()) ? 1 : -1;
+    }
 });
 

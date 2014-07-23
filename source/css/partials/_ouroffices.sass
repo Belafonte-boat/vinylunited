@@ -1,8 +1,9 @@
 #ouroffices-section
-
+  h2.title
+    +span-columns(6,6)
   .spacer
-    +pre(2,12)
-    +span-columns(8,12)
+    +pre(1,6)
+    +span-columns(5,6)
     border-top: 1px solid $new-york-pink
   ul
     +no-bullets
@@ -10,16 +11,32 @@
     margin-left: 0
     text-align: left
     li
-      +span-columns(2,8)
+      +span-columns(5,5)
 
       h3
         color: $new-york-pink
         text-align: left
         font-family: 'Lato', sans-serif
         font-weight: 400
-        font-weight: px-to-em(16px,16px)
+        font-size: px-to-em(14px,16px)
+
+        letter-spacing: px-to-em(4px,16px)
       p
-        color: $foggy-gray
+        color: $aluminium
         font-family: 'Muli', sans-serif
         font-weight: 300
         font-weight: px-to-em(16px,16px)
+
+
++at-breakpoint($screen4 $break3)
+  #ouroffices-section
+    h2.title
+      +span-columns(4,12)
+    .spacer
+      +pre(2,12)
+      +span-columns(8,12)
+
+    ul
+
+      li
+        +span-columns(2,8)

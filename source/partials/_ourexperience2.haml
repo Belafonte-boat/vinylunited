@@ -1,37 +1,36 @@
-#ourexperiences2-section
+#ourexperience2-section
   .container
     %h2.title
-      OUR EXPERIENCES
+      = t("ourexperiences.title")
     .vertical-spacer
     .spacer
       .category
         %h3
-          BANKING AND FINANCE
-        %ul
+          BANKING AND INSURANCE
+        %ul.five
           %li
             AMERICAN EXPRESS
           %li
             UNICREDIT
           %li
-            ING
+            ING DIRECT
           %li
             ALLEANZA ASSICURAZIONI
           %li
             SARA ASSICURAZIONI
           %li
             EUROPE ASSISTANCE
-
-      .category
         %h3
           TOBACCO
-        %ul
+        %ul.six
           %li
             PHILIP MORRIS
           %li
-            BRITISH AMERICAN TOBACCO
+            BAT
+      .category
         %h3
           FASHION AND SPORTSWEAR
-        %ul
+        %ul.seven
           %li
             KAPPA
           %li
@@ -40,28 +39,28 @@
             ELENA MIRÓ
           %li
             CONTE OF FLORENCE
-
-      .category
-        %h3
+          %li
+            SERGIO TACCHINI
+        %h3.special
           TOILETRIES
-        %ul
+        %ul.eight
           %li
             PROCTER&GAMBLE
           %li
-            UNILEVEL
+            UNILEVER
+      .category
         %h3
           HOME APPLIANCES
-        %ul
+        %ul.nine
           %li
             INDESIT
           %li
             ARISTON
           %li
             PHILIPS
-      .category
         %h3
           INSTITUTIONAL
-        %ul
+        %ul.ten
           %li
             TRENTINO
           %li
@@ -69,5 +68,7 @@
 
     .arrow-left
       #experience-link
-        .small-asset
-
+        %span
+          = t("ourexperiences.link")
+        .asset
+  .space

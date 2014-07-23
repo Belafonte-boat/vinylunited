@@ -1,0 +1,50 @@
+#ourexperience-section, #ourexperience2-section
+  h3
+    color: $new-york-pink
+    text-align: left
+    font-family: 'Lato', sans-serif
+    font-weight: 400
+    font-size: px-to-em(14px,16px)
+    letter-spacing: px-to-em(4px,16px)
+  .spacer
+    +pre(1,6)
+    +span-columns(5,6)
+    border-top: 1px solid $new-york-pink
+  .category
+    +isolate-grid(6,6)
+  .vertical-spacer
+    height: 98px
+  ul
+    +no-bullets
+    padding-left: 0
+    margin-left: 0
+    text-align: left
+
+    li
+      min-height: 30px
+      color: $aluminium
+      font-family: 'Muli', sans-serif
+      font-weight: 300
+      font-weight: px-to-em(14px,16px)
+      letter-spacing: px-to-em(2px,16px)
+#ourexperience-section
+  h3
+    min-height: 48px
+
++at-breakpoint($screen4 $break3)
+  #ourexperience-section
+    .spacer
+      +pre(1,12)
+      +span-columns(10,12)
+    .category
+      +isolate-grid(3,12)
+    .vertical-spacer
+      height: 98px
+  #ourexperience2-section
+    .spacer
+      +pre(2,12)
+      +span-columns(9,12)
+    .category
+      +isolate-grid(3,9)
+    .vertical-spacer
+      height: 98px
