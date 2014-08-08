@@ -5,6 +5,9 @@
     +pre(1,6)
     +span-columns(5,6)
     border-top: 1px solid $new-york-pink
+  img
+    margin-top: -15px
+    margin-bottom: 30px
   ul
     +no-bullets
     padding-left: 0
@@ -26,7 +29,7 @@
         font-family: 'Muli', sans-serif
         font-weight: 300
         font-weight: px-to-em(16px,16px)
-
+        margin-bottom: 0
 
 +at-breakpoint($screen4 $break3)
   #ouroffices-section
@@ -35,8 +38,17 @@
     .spacer
       +pre(2,12)
       +span-columns(8,12)
+    p
+      margin-bottom: 1em
+    img
+
+      margin-top: 0
+      margin-bottom: 0
+      position: absolute
+      bottom: 0
 
     ul
 
       li
         +span-columns(2,8)
+        min-height: 250px

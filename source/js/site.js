@@ -65,7 +65,7 @@ enquire
 function menuAppear(){
 
         $("#menu-open").fadeOut(600);
-
+        $("#nav-toggle").removeClass( "active" );
         if ($("#footer").is(":hidden")) {
             $("#footer").fadeIn(600);
         }
@@ -75,7 +75,7 @@ function menuAppear(){
 $(document).ready(function() {
     if(isMobile == false) {
         $("#menu-open").fadeIn(600);
-
+        $("#nav-toggle").addClass( "active" );
     }
     $("#footer #small-logo").click(function(e){
         e.preventDefault();
@@ -97,19 +97,20 @@ $(document).ready(function() {
         e.preventDefault();
         params = window.location.hash;
         link = $(this).attr("href");
-        console.log(link+params);
+
         window.location = link + params;
     });
     $("li.it a").click(function(e){
         e.preventDefault();
         params = window.location.hash;
         link = $(this).attr("href");
-        console.log(link+params);
+
         window.location = link + params;
     });
 
     $("#menu").click(function(e){
         e.preventDefault();
+        $("#nav-toggle").toggleClass( "active" );
         $("#menu-open").fadeToggle(600);
     });
     $('#fullpage').fullpage({
@@ -137,6 +138,7 @@ $(document).ready(function() {
                 if (anchorLink == 'landing') {
                     $("#footer").fadeOut(600);
                     $("#menu-open").fadeIn(600);
+                    $("#nav-toggle").addClass( "active" );
                 }
 
             }

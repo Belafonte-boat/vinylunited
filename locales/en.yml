@@ -50,18 +50,18 @@ en:
   whatwedo:
     title: "WHAT WE DO"
     main: "Our services include:"
-    li1: "COMMUNICATION STRATEGIES"
-    li2: "BRANDS AND COMPANIES POSITIONING"
-    li3: "HI-TECH ONE TO ONE COMMUNICATION"
-    li4: "ABOVE AND BELOW THE LINE ADVERTISING"
-    li5: "PROXIMITY COMMUNICATION"
-    li6: "CONSUMER ENGAGEMENT"
+
+    li1: "MULTICHANNEL COMMUNICATION STRATEGIES"
+    li2: "BRAND AND COMPANY POSITIONING"
+    li3: "MULTICHANNEL CREATIVITY"
+    li4: "HI-TECH PROXIMITY COMMUNICATION"
+    li5: "NEW PRODUCTS AND SERVICES CONCEPT"
+    li6: "CONSUMER ENGAGEMENT PROJECTS"
     li7: "WEB/SOCIAL DIGITAL PROJECTS"
-    li8: "MULTIPLATFORM APPS"
-    li9: "B2B AND B2C COMMUNICATION PROJECTS"
-    li10: "NEW PRODUCTS CONCEPT AND DESIGN"
-    li11: "START UP: SCOUTING AND EVALUATION"
-    li12: "COSTS & PERFORMANCES ASSESSMENT OF COMMUNICATION AGENCIES"
+    li8: "START UPS: SCOUTING AND EVALUATION"
+
+
+
   ourvalues:
     title: "OUR VALUES"
     main: "Vinyl United is based on a few, yet determinant values"
@@ -85,7 +85,7 @@ en:
              and soft way, without disrupting the Company’s original voice.."
   ourofficies:
     title: "OUR OFFICES"
-    main: "Siamo presenti a Milano, New York e San Francisco agli indirizzi che trovate indicati qui sotto."
+    main: "You can find us at these addresses:"
   contactus:
     title: "CONTACT US"
     main: 'Whether you wish to meet us in person, or you have an issue that needs a solution and you

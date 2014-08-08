@@ -198,6 +198,7 @@
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uber (v0.0.7, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.5.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="wdm (v0.1.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />

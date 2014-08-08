@@ -7,7 +7,7 @@ activate :deploy do |deploy|
   deploy.host = "web332.webfaction.com"
   deploy.user = "piermaria"
   deploy.password = "Nonmelaricordo2"
-  deploy.path = "/home/piermaria/webapps/beta_vinylunited"
+  deploy.path = "/home/piermaria/webapps/vinylunited"
   
 end
 

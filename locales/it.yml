@@ -3,13 +3,13 @@ it:
   url: "http://www.vinylunited.com/"
   description-meta_messages:  "Vinyl United website"
   menu:
-      li1: "Chi siamo"
-      li2: "Come lavoriamo"
-      li3: "Cosa facciamo"
-      li4: "La nostra esperienza"
-      li5: "I nostri valori"
-      li6: "Dove siamo"
-      li7: "Contattaci"
+    li1: "Chi siamo"
+    li2: "Come lavoriamo"
+    li3: "Cosa facciamo"
+    li4: "La nostra esperienza"
+    li5: "I nostri valori"
+    li6: "Dove siamo"
+    li7: "Contattaci"
   landing:
     title: "COMMUNICATION & NEO-TECHNOLOGIES ADVISORS"
   aboutus:
@@ -30,21 +30,22 @@ it:
     title: "LA NOSTRA ESPERIENZA"
     main: "Ognuno dei tre soci fondatori di Vinyl United ha maturato significative esperienze lavorando come consulente o come imprenditore per le più importanti aziende nazionali e internazionali:"
     link: "INDIETRO"
+
+  ourexperiences2:
+      link: "CONTINUA"
   whatwedo:
     title: "COSA FACCIAMO"
     main: "I nostri servizi includono:"
-    li1: "STRATEGIA DI COMUNICAZIONI"
-    li2: "POSIZIONAMENTO BRAND E AZIENDE"
-    li3: "COMUNICAZIONE HI-TECH UNO A UNO"
-    li4: "ABOVE AND BELOW THE LINE ADVERTISING"
-    li5: "COMUNICAZIONE IN PROSSIMITA'"
-    li6: "CONSUMER ENGAGEMENT"
+    li1: "STRATEGIE DI COMUNICAZIONE MULTICANALE"
+    li2: "POSIZIONAMENTO DI MARCHE E AZIENDE"
+    li3: "CREATIVITÀ MULTICANALE"
+    li4: "COMUNICAZIONE DI PROSSIMITÀ<br />HI-TECH"
+    li5: "IDEAZIONE NUOVI PRODOTTI E SEVIZI"
+    li6: "PROGETTI DI CONSUMER ENGAGEMENT"
     li7: "PROGETTI DIGITALI WEB/SOCIAL"
-    li8: "APPLICAZIONI MULTIPIATTAFORMA"
-    li9: "COMUNICAZIONE DI PROGETTI B2B e B2C"
-    li10: "CONCEPT E DESIGN DI NUOVI PRODOTTI"
-    li11: "START UP: SCOUTING E VALUTAZIONE"
-    li12: "COSTS & PERFORMANCES ASSESSMENT OF COMMUNICATION AGENCIES"
+    li8: "START UPS: SCOUTING E VALUTAZIONE"
+
+
   ourvalues:
     title: "I NOSTRI VALORI"
     main: "Vinyl United è stata fondata su pochi ma fondamentali valori:"
@@ -58,7 +59,7 @@ it:
     main4:  "Pur avendo l’innovazione come parte fondamentale del nostro DNA, rispettiamo il patrimonio di pensiero e la storia di ogni Azienda per la quale lavoriamo. Sappiamo che la vera innovazione in comunicazione è efficace quando s’innesta con coerenza e delicatezza e non stravolge la voce dell’Azienda."
   ourofficies:
     title: "DOVE SIAMO"
-    main: "Siamo presenti a Milano, New York e San Francisco a questi indirizzi:"
+    main: "Potete trovarci a questi indirizzi:"
   contactus:
     title: "CONTATTACI"
     main: 'Se volete conoscerci di persona, avete una soluzione da trovare e desiderate un nostro consiglio, potete contattarci in ogni momento scrivendoci a <a href="mailto:partners@vinylunited.com">partners@vinylunited.com</a> o compilando il form qui accanto.<br /> Vi ricontatteremo immediatamente.'
@@ -73,4 +74,4 @@ it:
     title:
       "LEGAL"
     credits: "Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis."
-    legal: "Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis."
+    legal: 'Vinyl United s.r.l. Via Conservatorio 17, 20122 Milano Italia REA MI-2040356 PEC <a href="mailto:vinylunited@legalmail.it">vinylunited@legalmail.it</a> CF/PIVA 08660840961'

@@ -27,6 +27,9 @@
               | Executive Partner
           %p
             %a{href:"mailto:marco.caserta@vinylunited.com"}marco.caserta@vinylunited.com
+      .legal
+        %p
+          = I18n.t("legal.legal")
     .right
       %form.contact-form{action: "form_data.php", method: "post", novalidate: ""}
         %input#name.form-name{name: "name", placeholder: I18n.t("contactus.form.name"), type: "text"}/
@@ -35,6 +38,7 @@
         %input#email.form-email{name: "email", placeholder: I18n.t("contactus.form.email"), type: "email"}/
         %textarea#message.form-message{name: "message", placeholder: I18n.t("contactus.form.message")}
         %input{type:"submit", value:I18n.t("contactus.form.button")}
+
     .arrow-left
       #ouroffices-link
         %span

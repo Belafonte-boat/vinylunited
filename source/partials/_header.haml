@@ -1,6 +1,7 @@
 #header
   #menu.active
-    %i.fa.fa-bars.hamburger
+    %a#nav-toggle{href:"#"}
+      %span
   #menu-open
     .container
       %ul
@@ -23,7 +24,7 @@
           %a{href:"#ourofficies"}
             = t("menu.li6")
         %li{:"data-menuanchor"=>"contactus"}
-          %a{href:"#ouroffices/1"}
+          %a{href:"#ourofficies/1"}
             = t("menu.li7")
   #lang
     %ul

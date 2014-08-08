@@ -1,33 +1,26 @@
 #footer
   display: none
-
+  position: fixed
 +at-breakpoint($screen4 $break3)
   #footer
-    position: fixed
+
     bottom: 20px
     left: 20px
     z-index: 100
     display: block
   #small-logo
     cursor: pointer
-    .image
 
-      display: block
-      text-decoration: none
-      background: image-url("vinyl_icon_smallvinyl.png") no-repeat center center
-      width: image-width("vinyl_icon_smallvinyl.png")
-      height: image-height("vinyl_icon_smallvinyl.png")
     span
-      color: $aluminium
-      text-align: center
+      letter-spacing: 2px
+      text-decoration: none
+      color: $loblolly
       font-family: 'Lato', sans-serif
       font-weight: 300
       font-size: px-to-em(14px,16px)
-      width: 100%
-      display: block
 
+      display: block
+      letter-spacing: px-to-em(2px,16px)
     &:hover
       span
         color: $new-york-pink
-      .image
-        +opacity(0.9)
