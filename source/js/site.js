@@ -3,7 +3,7 @@
 //= require "jquery.easing/js/jquery.easing.min"
 //= require "fullpage.js/jquery.fullPage.min"
 //= require "enquire/dist/enquire.min"
-
+//= require "jquery-html5-placeholder-shim/jquery.html5-placeholder-shim"
 $( window ).resize(function() {
     location.reload();
 });
