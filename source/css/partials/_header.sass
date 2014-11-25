@@ -82,7 +82,7 @@
       margin: 70px 0 0 0
       padding: 0
       li
-        +span-columns(6,6)
+        +span(6 of 6)
         min-height: 35px
         font-family: 'Lato', sans-serif
         font-size: px-to-em(14px,16px)
@@ -92,7 +92,7 @@
         float: none
         a
           text-decoration: none
-          +span-columns(6,6)
+          +span(6 of 6)
           line-height: 35px
           color: $loblolly
           &:hover
@@ -131,7 +131,7 @@
             color: $new-york-pink
             border: 1px solid $new-york-pink
 
-+at-breakpoint($screen4 $break3)
++susy-breakpoint($screen4, $break3)
   #header
 
 

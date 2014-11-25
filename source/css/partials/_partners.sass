@@ -1,22 +1,22 @@
 #partners-section
-  +span-columns(6,6)
+  +span(6 of 6)
   a
     color: $new-york-pink
     text-decoration: none
   #partners-group
-    +span-columns(5,6)
-    +pre(1,6)
+    +span(5 of 6)
+    +pre(1 of 6)
   .partner
-    +span-columns(5,5)
+    +span(5 of 5)
 
     .avatar
-      +span-columns(2,5)
+      +span(2 of 5)
 
     img
       +border-radius(45px)
       margin: 0 auto 20px 0
     .info
-      +span-columns(3 omega,5)
+      +span(3 of 5 omega)
       text-align: left
 
       h3.name
@@ -33,21 +33,21 @@
         color: $aluminium
 
 
-+at-breakpoint($screen4 $break3)
++susy-breakpoint($screen4, $break3)
   #partners-section
-    +span-columns(12,12)
+    +span(12 of 12)
     #partners-group
       border-left: 1px solid $new-york-pink
-      +span-columns(4,12)
+      +span(4 of 12)
       +pre(0)
     .partner
-      +span-columns(4,4)
+      +span(4 of 4)
 
       .avatar
-        +span-columns(1,4)
-        +pre(1,4)
+        +span(1 of 4)
+        +pre(1 of 4)
 
       .info
-        +span-columns(2 omega,4)
+        +span(2 of 4 omega)
 
 

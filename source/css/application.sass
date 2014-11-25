@@ -1,4 +1,5 @@
 //=require fullpage.js/jquery.fullPage.css
+@import compass
 @import compass/utilities/sprites
 @import compass/typography
 @import h5bp
@@ -65,7 +66,7 @@ $aluminium: #888A8D
 
 
 .container
-  +container($total-columns, $break3)
+  +container($total-columns)
 
 h1,h2,h3,h4,h5,h6,p,span,textarea,input
   font-family: 'Lato', sans-serif
@@ -178,8 +179,8 @@ h2.title
   text-align: left
   font-size: px-to-em(30px,16px)
 p.main
-  +span-columns(5,6)
-  +pre(1,6)
+  +span(5 of 6)
+  +pre(1 of6)
   font-weight: 300
   font-family: "Muli", sans-serif
   color: $aluminium
@@ -225,16 +226,16 @@ p.main
   .container
     margin-top: 200px
 .space
-  +span-columns(6,6)
+  +span(6 of 6)
   height: 100px
 h2.title
-  +span-columns(6,6)
+  +span(6 of 6)
 
 #landing-section
   .container
     margin-top: 0
 
-+at-breakpoint($break3, $screen4)
++susy-breakpoint($break3, $screen4)
   .space
     display: none
   .slide
@@ -334,14 +335,14 @@ h2.title
       left: 25%
 
   .section
-    +span-columns(12,12)
+    +span(12 of 12)
 
 
   h2.title
 
-    +span-columns(5,12)
-    +pre(1,12)
+    +span(5 of 12)
+    +pre(1 of 12)
   p.main
 
-    +span-columns(5,12)
-    +pre(2,12)
+    +span(5 of 12)
+    +pre(2 of 12)

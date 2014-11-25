@@ -7,11 +7,11 @@
     font-size: px-to-em(14px,16px)
     letter-spacing: px-to-em(4px,16px)
   .spacer
-    +pre(1,6)
-    +span-columns(5,6)
+    +pre(1 of 6)
+    +span(5 of 6)
     border-top: 1px solid $new-york-pink
   .category
-    +isolate-grid(6,6)
+    +isolate(6 of 6)
   .vertical-spacer
     height: 98px
   ul
@@ -31,20 +31,20 @@
   h3
     min-height: 48px
 
-+at-breakpoint($screen4 $break3)
++susy-breakpoint($screen4, $break3)
   #ourexperience-section
     .spacer
-      +pre(1,12)
-      +span-columns(10,12)
+      +pre(1 of 12)
+      +span(10 of 12)
     .category
-      +isolate-grid(3,12)
+      +isolate(3  of 12)
     .vertical-spacer
       height: 98px
   #ourexperience2-section
     .spacer
-      +pre(2,12)
-      +span-columns(9,12)
+      +pre(2 of 12)
+      +span(9 of 12)
     .category
-      +isolate-grid(3,9)
+      +isolate(3 of 9)
     .vertical-spacer
       height: 98px
