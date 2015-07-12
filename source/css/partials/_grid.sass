@@ -14,10 +14,19 @@ $screen1: 20em //320px
 $screen3: 40em //640px
 $screen4: 70em //960px
 
+
+
+// media-query fallbacks
+$breakpoint-ie-output: true
+
+
+$susy: (columns: $total-columns, gutters: $gutter-width / $column-width, column-width: $column-width, math: $container-style )
+
 //@import "partials/draw_grid"
 
 .container
-  +container($total-columns)
+  +container(92%)
+
   
   -webkit-overflow-scrolling: touch
 

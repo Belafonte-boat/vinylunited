@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 
 gem "middleman-livereload", :platforms => [:ruby]
 gem "middleman-bower"
-gem "middleman", '~> 3.3.3'
-gem "middleman-favicon-maker", "~> 3.5"
+gem "middleman"
+gem "middleman-favicon-maker"
 gem "middleman-deploy"
 gem "middleman-smusher"
 gem "middleman-minify-html"
@@ -12,6 +12,7 @@ gem 'oj'
 gem "wdm", :platforms => [:mswin, :mingw]
 gem "susy"
 
+gem 'compass'
 gem "compass-h5bp"
 gem "builder"
 
@@ -24,6 +25,6 @@ gem 'premailer'
 
 gem 'font-awesome-middleman'
 
-gem "middleman-imageoptim", "~> 0.1.4"
+gem "middleman-imageoptim"
 
 
