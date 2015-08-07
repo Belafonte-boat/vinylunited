@@ -9,7 +9,7 @@ activate :deploy do |deploy|
   deploy.user = "piermaria"
   deploy.password = "Nonmelaricordo2"
   deploy.path = "/home/piermaria/webapps/vinylunited"
-  
+
 end
 
 activate :bower
