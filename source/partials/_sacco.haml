@@ -1,0 +1,30 @@
+#partner-section
+  .container
+    .avatar
+      = image_tag "vinyl_sacco.png"
+    %h2.title
+      = t("partners.sacco.title")
+    %h3.subtitle
+      = t("partners.sacco.subtitle")
+    .main
+      %ul.bullet
+        - t("partners.sacco.main").each do |f|
+          %li
+            %p
+              = f
+      %p.link
+        %a{href:"https://it.linkedin.com/in/elena-sacco-b3713410", target: "_blank"}
+          Linkedin profile
+
+    .arrow-right
+      .partners-link
+        %span
+          = t("partners.sacco.next")
+        .asset
+    .arrow-left.short
+      .partners-back-link
+        %span
+          = t("partners.sacco.prev")
+        .asset
+
+  .space

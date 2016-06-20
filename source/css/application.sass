@@ -58,6 +58,9 @@ $aluminium: #888A8D
 @import partials/howwework
 @import partials/whatwedo
 @import partials/ourexperience
+@import partials/advantages
+@import partials/reasons
+@import partials/process
 @import partials/legal
 
 
@@ -92,39 +95,39 @@ body
   background-size: cover
   background-position: center center
 
-
-
-
-
-
 #slide1
   background-image: image-url("backgrounds/vinyl_aboutus_img.jpg")
-
-
 #slide2
-  background-image: image-url("backgrounds/vinyl_partners_img.jpg")
-
-#slide3
-  background-image: image-url("backgrounds/vinyl_howwework_img.jpg")
-
-
-#slide4
   background-image: image-url("backgrounds/vinyl_whatwedo_img.jpg")
-
+#slide3
+  background-image: image-url("backgrounds/vinyl_whatwedo_img.jpg")
+#slide4
+  background-image: image-url("backgrounds/vinyl_howwework_img.jpg")
 #slide5
   background-image: image-url("backgrounds/vinyl_experience_img.jpg")
-
-
 #slide6
   background-image: image-url("backgrounds/vinyl_experience_img.jpg")
-#section4
-  background-image: image-url("backgrounds/vinyl_ourvalues_img.jpg")
-
 #slide7
-  background-image: image-url("backgrounds/vinyl_ouroffices_img.jpg")
-
-
+  background-image: image-url("backgrounds/vinyl_ourvalues_img.jpg")
 #slide8
+  background-image: image-url("backgrounds/vinyl_ourvalues_img.jpg")
+#slide9
+  background-image: image-url("backgrounds/vinyl_partners_img.jpg")
+#slide10
+  background-image: image-url("backgrounds/vinyl_partners_img.jpg")
+#slide11
+  background-image: image-url("backgrounds/vinyl_partners_img.jpg")
+#slide12
+  background-image: image-url("backgrounds/vinyl_partners_img.jpg")
+#slide13
+  background-image: image-url("backgrounds/vinyl_partners_img.jpg")
+#slide14
+  background-image: image-url("backgrounds/vinyl_name_img.jpg")
+#slide15
+  background-image: image-url("backgrounds/vinyl_name_img.jpg")
+#slide16
+  background-image: image-url("backgrounds/vinyl_ouroffices_img.jpg")
+#slide17
   background-image: image-url("backgrounds/vinyl_contactus_img.jpg")
 
 
@@ -177,6 +180,7 @@ h2.title
   letter-spacing: px-to-em(3px,16px)
   text-align: left
   font-size: px-to-em(30px,16px)
+  line-height: 1em
 p.main
   +span(5 of 6)
   +pre(1 of6)
@@ -186,6 +190,8 @@ p.main
   font-weight: px-to-em(16px,16px)
   line-height: px-to-em(24px,16px)
   text-align: left
+  span
+    font-weight: 600
 .arrow-right
   position: static
   +float-right
@@ -332,7 +338,12 @@ h2.title
   .wide
     .arrow-down
       left: 25%
-
+  .widest
+    .arrow-down
+      left: 16.6%
+  .superwide
+    .arrow-down
+      left: 10%
   .section
     +span(12 of 12)
 

@@ -1,0 +1,29 @@
+#partner-section
+  .container
+    .avatar
+      = image_tag "vinyl_caserta.png"
+    %h2.title
+      = t("partners.caserta.title")
+    %h3.subtitle
+      = t("partners.caserta.subtitle")
+    .main
+      %ul.bullet
+        - t("partners.caserta.main").each do |f|
+          %li
+            %p
+              = f
+      %p.link
+        %a{href:"https://it.linkedin.com/in/marco-caserta-0b30639", target: "_blank"}
+          Linkedin profile
+
+    .arrow-right
+      .partners-link
+        %span
+          = t("partners.caserta.next")
+        .asset
+    .arrow-left.short
+      .partners-back-link
+        %span
+          = t("partners.caserta.prev")
+        .asset
+  .space

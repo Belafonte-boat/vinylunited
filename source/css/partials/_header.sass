@@ -1,3 +1,48 @@
+#menu-open
+  display: none
+  min-height: 100%
+  height: 100%
+  position: fixed
+  width: 100%
+  top: 0
+  z-index: 99
+  background: rgba(0,0,0,0.6)
+  .container
+    height: auto
+    min-height: 0
+    text-align: left
+  ul
+
+    width: 100%
+    text-align: center
+    min-height: 100%
+    display: block
+    +no-bullets
+    height: 100%
+
+    margin: 70px 0 0 0
+    padding: 0
+    li
+      +span(6 of 6)
+      min-height: 35px
+      font-family: 'Lato', sans-serif
+      font-size: px-to-em(14px,16px)
+      font-weight: 300
+      letter-spacing: 2px
+      display: inline-block
+      float: none
+      a
+        text-decoration: none
+        +span(6 of 6)
+        line-height: 35px
+        color: $loblolly
+        &:hover
+          color: white
+          background-color: $new-york-pink
+
+      &.active
+        a
+          color: $new-york-pink
 #header
 
 
@@ -57,51 +102,7 @@
 
 
 
-  #menu-open
-    display: none
-    min-height: 100%
-    height: 100%
-    position: fixed
-    width: 100%
-    top: 0
-    z-index: 99
-    background: rgba(0,0,0,0.6)
-    .container
-      height: auto
-      min-height: 0
-      text-align: left
-    ul
 
-      width: 100%
-      text-align: center
-      min-height: 100%
-      display: block
-      +no-bullets
-      height: 100%
-
-      margin: 70px 0 0 0
-      padding: 0
-      li
-        +span(6 of 6)
-        min-height: 35px
-        font-family: 'Lato', sans-serif
-        font-size: px-to-em(14px,16px)
-        font-weight: 300
-        letter-spacing: 2px
-        display: inline-block
-        float: none
-        a
-          text-decoration: none
-          +span(6 of 6)
-          line-height: 35px
-          color: $loblolly
-          &:hover
-            color: white
-            background-color: $new-york-pink
-
-        &.active
-          a
-            color: $new-york-pink
 
   #lang
     position: absolute
@@ -132,6 +133,49 @@
             border: 1px solid $new-york-pink
 
 +susy-breakpoint($screen4, $break3)
+  #menu-open
+    height: 60px
+    min-height: 0
+    position: fixed
+    width: 100%
+    top: 34px
+    z-index: 99
+    background: transparent
+    .container
+      height: auto
+      min-height: 0
+      text-align: left
+    ul
+      +horizontal-list-container
+      width: 100%
+      text-align: center
+      min-height: 0
+
+
+      li
+        padding: 0
+        margin-right: 0
+        +horizontal-list-item(20px)
+        font-family: 'Lato', sans-serif
+        font-size: px-to-em(14px,16px)
+        font-weight: 300
+        letter-spacing: 2px
+        display: inline-block
+        float: none
+        width: auto
+        min-height: auto
+        height: auto
+
+        a
+          text-decoration: none
+          color: $loblolly
+          &:hover
+            color: $new-york-pink
+            background: transparent
+
+        &.active
+          a
+            color: $new-york-pink
   #header
 
 
@@ -147,49 +191,7 @@
 
 
 
-    #menu-open
-      height: 60px
-      min-height: 0
-      position: fixed
-      width: 100%
-      top: 34px
-      z-index: 99
-      background: transparent
-      .container
-        height: auto
-        min-height: 0
-        text-align: left
-      ul
-        +horizontal-list-container
-        width: 100%
-        text-align: center
-        min-height: 0
 
-
-        li
-          padding: 0
-          margin-right: 0
-          +horizontal-list-item(20px)
-          font-family: 'Lato', sans-serif
-          font-size: px-to-em(14px,16px)
-          font-weight: 300
-          letter-spacing: 2px
-          display: inline-block
-          float: none
-          width: auto
-          min-height: auto
-          height: auto
-
-          a
-            text-decoration: none
-            color: $loblolly
-            &:hover
-              color: $new-york-pink
-              background: transparent
-
-          &.active
-            a
-              color: $new-york-pink
 
     #lang
       position: absolute
@@ -218,4 +220,3 @@
             &:hover
               color: $new-york-pink
               border: 1px solid $new-york-pink
-

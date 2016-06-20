@@ -1,0 +1,23 @@
+#partner-section
+  .container
+    .avatar
+      = image_tag "vinyl_rubulotta.png"
+    %h2.title
+      = t("partners.rubulotta.title")
+    %h3.subtitle
+      = t("partners.rubulotta.subtitle")
+    .main
+      %ul.bullet
+        - t("partners.rubulotta.main").each do |f|
+          %li
+            %p
+              = f
+      %p.link
+        %a{href:"https://it.linkedin.com/in/robertorubulotta", target: "_blank"}
+          Linkedin profile
+    .arrow-left.short
+      .partners-back-link
+        %span
+          = t("partners.rubulotta.prev")
+        .asset
+  .space

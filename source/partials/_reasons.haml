@@ -1,0 +1,21 @@
+#reasons-section
+  .container
+    %h2.title
+      = t("reasons.title")
+    .main
+      %ul.bullet
+        - t("reasons.main").each do |f|
+          %li
+            %p
+              = f
+    .arrow-right
+      #thename-link
+        %span
+          = t("thename.title")
+        .asset
+  .arrow-down
+    %a{href:"#ourofficies"}
+      .asset
+      %span
+        = t("ourofficies.title")
+  .space

@@ -110,6 +110,7 @@ $(document).ready(function() {
         $("#menu-open").fadeToggle(600);
     });
     $('#fullpage').fullpage({
+        css3: true,
         verticalCentered: true,
         resize : false,
         loopBottom: false,
@@ -119,8 +120,10 @@ $(document).ready(function() {
         slidesNavigation: false,
         navigation: false,
         scrollOverflow: true,
+        touchSensitivity: 15,
+        normalScrollElementTouchThreshold: 5,
         menu: "#menu-open",
-        anchors:['landing', 'aboutus','howwework','ourexperience','ourvalues','ourofficies','legal'],
+        anchors:['landing', 'mission','whatwedo','howwework','advantages','ourvalues','partners','reasons','ourofficies'],
         onSlideLeave: function( anchorLink, index, slideIndex, direction){
             menuAppear()
             },
@@ -141,8 +144,11 @@ $(document).ready(function() {
         }
     });
 
-    $("#partners-link").click(function(e){
+    $(".partners-link").click(function(e){
         $.fn.fullpage.moveSlideRight();
+    });
+    $(".partners-back-link").click(function(e){
+        $.fn.fullpage.moveSlideLeft();
     });
     $("#aboutus-link").click(function(e){
         $.fn.fullpage.moveSlideLeft();
@@ -153,16 +159,28 @@ $(document).ready(function() {
     $("#howwework-link").click(function(e){
         $.fn.fullpage.moveSlideLeft();
     });
+    $("#process-link").click(function(e){
+        $.fn.fullpage.moveSlideLeft();
+    });
     $("#experience-link").click(function(e){
         $.fn.fullpage.moveSlideRight();
     });
     $("#experience2-link").click(function(e){
+        $.fn.fullpage.moveSlideRight();
+    });
+    $("#experience3-link").click(function(e){
         $.fn.fullpage.moveSlideLeft();
     });
     $("#contactus-link").click(function(e){
         $.fn.fullpage.moveSlideRight();
     });
+    $("#reasons-link").click(function(e){
+        $.fn.fullpage.moveSlideRight();
+    });
     $("#ouroffices-link").click(function(e){
+        $.fn.fullpage.moveSlideLeft();
+    });
+    $("#thename-link").click(function(e){
         $.fn.fullpage.moveSlideLeft();
     });
 
@@ -187,4 +205,3 @@ $(document).ready(function() {
         return ($(b).text()) > ($(a).text()) ? 1 : -1;
     }
 });
-

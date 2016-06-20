@@ -1,0 +1,21 @@
+#advantages-section
+  .container
+    %h2.title
+      = t("advantages.title")
+    .main
+      %ul.bullet
+        - t("advantages.main").each do |f|
+          %li
+            %p
+              = f
+  -#   .arrow-right
+  -#     #partners-link
+  -#       %span
+  -#         = t("partners.title")
+  -#       .asset
+  .arrow-down
+    %a{href:"#ourvalues"}
+      .asset
+      %span
+        = t("ourvalues.title")
+  .space

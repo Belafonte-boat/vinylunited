@@ -13,14 +13,52 @@ it:
   landing:
     title: "BRAND ENGAGEMENT COMMUNICATION PROJECTS"
   aboutus:
-    title: "CHI SIAMO"
-    main: "Vinyl United è una società internazionale indipendente che offre consulenza di comunicazione ad alto valore aggiunto ed improntata all’innovazione.<br /><br />
-           Si propone come partner di aziende di tutto il mondo che hanno l’ambizione di crescere utilizzando gli strumenti piu’adatti per comunicare in modo contemporaneo.<br /><br />
-           Il vantaggio competitivo che offre Vinyl United e’ quello di accedere ad un pensiero strategico - creativo di assoluta eccellenza e, soprattutto in via privilegiata, a ogni nuova tecnologia capace di esprimerlo con maggior efficacia."
+    title: "LA NOSTRA MISSION"
+    main: "Vinyl United si propone come partner di aziende che hanno a cuore la costruzione di un efficace Brand Engagement creando una vera e propria rete di consenso intorno all’azienda, al suo management, ai suoi prodotti."
   partners:
     title: "PARTNERS"
+    next: "CHIOVATO"
     main: "Vinyl United è stata fondata da tre soci di grande esperienza provenienti da settori professionali differenti: Comunicazione e Marketing, Imprenditoria Hi-Tech, finanza e gestione di impresa.<br /><br />
            Questa ricchezza di esperienze rende ogni progetto, di comunicazione o servizio fornito da Vinyl United, più approfondito e avanzato di qualunque altro prodotto realizzato dalle consuete agenzie di comunicazione, sia tradizionali sia digitali."
+    chiovato:
+      title: "GUIDO CHIOVATO"
+      subtitle: "CEO – Creative Director – Executive Partner"
+      next: "SACCO"
+      prev: "PARTNERS"
+      main:
+        - "La sua è un’esperienza formatasi all’interno di grandi gruppi internazionali di comunicazione: McCann World Group, Benton&Bowles, D’arcy Masius Benton&Bowles, Ogilvy&Mather come direttore creativo esecutivo e, dal 2006 al 2013 come Group Managing Director di Leo Burnett Italia guidando i tre uffici di Milano, Roma e Torino (500 dipendenti e 54mln di fatturato)."
+        - "Nei 30 anni trascorsi occupandosi di Marketing&Comunicazione ha lavorato in diversi paesi e regioni del mondo: Italia, Germania, Spagna, Sud-Corea, UK e USA."
+        - "Ha diretto e coordinato campagne e azioni pubblicitarie B2B e B2C per importanti brand italiani e internazionali acquisendo approfondite conoscenze dei singoli mercati."
+    sacco:
+      title: "ELENA SACCO"
+      subtitle: "Executive Partner"
+      next: "CASERTA"
+      prev: "CHIOVATO"
+      main:
+        - "È stata a lungo titolare di un’agenzia di comunicazione, Teaser, occupandosi delle strategie B2B, B2C ed eventi per aziende italiane e multinazionali."
+        - "Ha maturato grande esperienza nella progettazione di eventi, convention, meeting e manifestazioni diverse, con particolare attenzione al concept strategico/creativo e al coordinamento delle attività di scaletta e speech."
+        - "Si è occupata a lungo di Talent e Testimonial famosi al grande pubblico e di alcuni ha curato il posizionamento e il loro impiego strategico per Brand leader di mercato."
+        - "La propensione per la scrittura la vede spesso impegnata a progettare piani editoriali, in particolare per attività di comunicazione e contenuti digitali."
+        - "È recentemente uscito, edito da Chiarelettere, il suo libro “Siamo Liberi”, diario dei suoi sette anni a bordo di una barca a vela intorno al mondo con la sua famiglia."
+    caserta:
+      title: "MARCO CASERTA"
+      subtitle: "CFO – Executive Partner"
+      next: "RUBULOTTA"
+      prev: "SACCO"
+      main:
+        - "È stato per oltre 20 anni CFO di grandi gruppi di comunicazione internazionali."
+        - "Durante la sua carriera professionale ha gestito progetti di IPO, acquisizioni, ristrutturazioni aziendali definendo insieme ai CEOs i piani di sviluppo e strategia."
+        - "Ha gestito molteplici relazioni contrattuali con grandi gruppi italiani e internazionali sviluppando ottime capacità di supervisione degli aspetti legali, economici e finanziari."
+        - "Grazie alla sua grande esperienza ha la capacità di valutare e suggerire ai clienti di Vinyl United come ottimizzare i loro investimenti commerciali e di marketing."
+    rubulotta:
+      title: "ROBERTO RUBULOTTA"
+      subtitle: "Digital Analytics & Technology Advisor"
+      prev: "CASERTA"
+      main:
+        - "Roberto ha maturato anni di esperienza come direttore tecnico di alcune tra le più importanti società di System Integrator e Web Agency."
+        - "È uno dei pochi professionisti in Italia in grado di analizzare e ottimizzare le attività digitali messe in atto per promuovere prodotti e imprese."
+        - "Le sue competenze professionali includono tecniche e tecnologie di Data-Driven Marketing orientate a massimizzare gli investimenti digitali."
+        - "È specializzato nel valutare e suggerire modalità di conversione dei contatti in vendite, a seguito di attività digital."
   howwework:
     title: "COME LAVORIAMO"
     main: "Ogni incarico che riceviamo è seguito in prima persona da uno dei soci fondatori a garanzia della qualità del pensiero, del rispetto dei tempi e dell’ottimizzazione dei costi.<br /><br />
@@ -38,25 +76,45 @@ it:
     main: "I nostri servizi includono:"
     li1: "STRATEGIE DI COMUNICAZIONE MULTICANALE"
     li2: "POSIZIONAMENTO DI MARCHE E AZIENDE"
-    li3: "CREATIVITÀ MULTICANALE"
-    li4: "COMUNICAZIONE DI PROSSIMITÀ<br />HI-TECH"
-    li5: "IDEAZIONE NUOVI PRODOTTI E SERVIZI"
-    li6: "PROGETTI DI CONSUMER ENGAGEMENT"
-    li7: "PROGETTI DIGITALI WEB/SOCIAL"
-    li8: "START UPS: SCOUTING E VALUTAZIONE"
-
-
+    li3: "CREATIVITÀ ATL E BTL MULTICANALE"
+    li4: "ANALISI NUOVI PRODOTTI E SERVIZI"
+    li5: "CONSULENZA MEDIA"
+    li6: "STACKEHOLDER ENGAGEMENT"
+    li7: "PROGETTI e PRODUZIONI DIGITALI WEB/SOCIAL"
+    li8: "IDEAZIONE E REALIZZAZIONE DI EVENTI E FIERE DI SETTORE"
+    li9: "RICERCA E CONTRATTUALIZZAZIONE TALENT, TESTIMONIAL, EXPERT"
+  process:
+    title: "LA NOSTRA METODOLOGIA"
+  reasons:
+    title: "SETTE MOTIVI PER SCEGLIERCI"
+    main:
+      - "Siamo specialisti nel progettare e produrre brand engagement verso gli stakeholders"
+      - "Siamo professionisti provenienti da società leader della comunicazione internazionale"
+      - "Abbiamo una struttura snella, solo senior a contatto diretto con il Cliente"
+      - "Abbiamo valori etici e qualitativi nel progettare, eseguire e nell’accountability"
+      - "Abbiamo esperienza trentennale e abbiamo lavorato per marchi leader, di ogni settore"
+      - "Siamo consulenti, ma sappiamo costruire partnership creative ed esecutive"
+      - "Adottiamo una metodologia che ha come obiettivo il ROI, l’innovazione e la qualità"
+  advantages:
+    title: "I NOSTRI VANTAGGI COMPETITIVI"
+    main:
+      - "Vinyl United racchiude in una struttura snella, flessibile e accessibile, la stessa esperienza e capacità strategica e creativa di un grande gruppo di comunicazione, ottimizzando tempi e costi."
+      - "Il rapporto diretto tra i partner di Vinyl United e i vertici delle aziende committenti consente di trovare, in mondo semplice ed efficace, soluzioni volte ad accrescere il valore delle Aziende stesse e, di conseguenza, dei loro prodotti o servizi."
+      - "Il costante monitoraggio e assessment delle azioni di comunicazione intraprese consente a Vinyl United di valutare il ritorno degli investimenti."
+  thename:
+    title: "IL PERCHÈ DI UN NOME"
+    main: "<span>Vinyl</span> è il nome che abbiamo scelto perché del vinile amiamo la capacità di restituire con fedeltà e umanità il calore, le sfumature e le atmosfere che ogni singolo strumento sa donare all’intera armonia. <br /><span>United</span> perché il nostro è un network di professionisti uniti nella scelta di abbracciare sfide che producano idee creative e soluzioni, con un mix di sensibilità e conoscenza del più innovativo futuro della comunicazione.<br /><br />In quattro parole: <span>THINK ANALOGIC, ACT DIGITAL</span>"
   ourvalues:
     title: "I NOSTRI VALORI"
     main: "Vinyl United è stata fondata su pochi ma fondamentali valori:"
-    title1: "QUALITÁ"
-    main1:  "Ogni servizio fornito deve rispettare i più alti standard qualitativi sia in termini di pensiero sia di esecuzione. Tutto questo impiegando le risorse dei nostri clienti con la stessa attenzione e parsimonia che avremmo se queste fossero le nostre."
-    title2: "INTEGRITA'"
-    main2:   "Affrontiamo ogni progetto con un profondo senso dell’etica, con totale trasparenza ed onestà. Suggeriamo sempre la via più conveniente e corretta per i nostri Clienti, tutelando in ogni moda i loro interessi."
-    title3: "COERENZA"
-    main3:  "Le soluzioni che proponiamo sono spesso sfidanti e non convenzionali ma crediamo in ciò che proponiamo e facciamo in modo di mantenere sempre un punto di vista indipendente; è dal confronto con il pensiero diverso che nascono i progetti migliori e i servizi più utili."
+    title1: "INNOVAZIONE"
+    main1:  "Vinyl United fa dell’innovazione il valore base del suo operare, proponendo soluzioni anche inconsuete ma appropriate ad ogni obiettivo di comunicazione, affinché i più alti standard qualitativi non siano solo frutto di esperienze ma di continua ricerca dell’eccellenza e della sperimentazione."
+    title2: "CONTEMPORANEITÀ'"
+    main2:   "Vinyl United si impegna nell’aggiornare il proprio patrimonio di conoscenza di nuovi linguaggi, strumenti e tecnologie, per formulare soluzioni creative sempre attuali. Un’attitudine necessaria alla costruzione dell’identità di un Brand e del suo esprimersi verso ogni stakeholder."
+    title3: "ETICA"
+    main3:  "Vinyl United affronta in totale trasparenza ogni fase di progettazione ed esecuzione: suggerisce sempre la via più conveniente al Cliente e ai suoi interessi; tutela i fornitori e valorizza i collaboratori. Crede che l’etica nel suo operare sia fondamentale per garantire gli interessi di tutti, generando valore."
     title4: "RISPETTO"
-    main4:  "Pur avendo l’innovazione come parte fondamentale del nostro DNA, rispettiamo il patrimonio di pensiero e la storia di ogni Azienda per la quale lavoriamo. Sappiamo che la vera innovazione in comunicazione è efficace quando s’innesta con coerenza e delicatezza e non stravolge la voce dell’Azienda."
+    main4:  "Viniyl United rispetta il patrimonio culturale e storico di ogni Azienda per cui lavora. È consapevole che comunicare efficacemente significhi agire ed evolvere armonicamente: sia nei valori di identità che nell’abbracciare nuove forme di commercializzazione di prodotti o servizi."
   ourofficies:
     title: "DOVE SIAMO"
     main: "Potete trovarci a questi indirizzi:"

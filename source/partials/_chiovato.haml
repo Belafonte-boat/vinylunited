@@ -1,0 +1,29 @@
+#partner-section
+  .container
+    .avatar
+      = image_tag "vinyl_chiovato.png"
+    %h2.title
+      = t("partners.chiovato.title")
+    %h3.subtitle
+      = t("partners.chiovato.subtitle")
+    .main
+      %ul.bullet
+        - t("partners.chiovato.main").each do |f|
+          %li
+            %p
+              = f
+      %p.link
+        %a{href:"https://it.linkedin.com/in/guido-chiovato-1153668", target: "_blank"}
+          Linkedin profile
+
+    .arrow-right
+      .partners-link
+        %span
+          = t("partners.chiovato.next")
+        .asset
+    .arrow-left.short
+      .partners-back-link
+        %span
+          = t("partners.chiovato.prev")
+        .asset
+  .space
