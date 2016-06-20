@@ -3,12 +3,12 @@ it:
   url: "http://www.vinylunited.com/"
   description-meta_messages:  "Vinyl United website"
   menu:
-    li1: "Chi siamo"
-    li2: "Come lavoriamo"
-    li3: "Cosa facciamo"
-    li4: "La nostra esperienza"
+    li1: "Mission"
+    li2: "Cosa facciamo"
+    li3: "Come lavoriamo"
+    li4: "I nostri vantaggi"
     li5: "I nostri valori"
-    li6: "Dove siamo"
+    li6: "Partners"
     li7: "Contattaci"
   landing:
     title: "BRAND ENGAGEMENT COMMUNICATION PROJECTS"

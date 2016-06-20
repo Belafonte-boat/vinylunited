@@ -162,6 +162,9 @@ $(document).ready(function() {
     $("#process-link").click(function(e){
         $.fn.fullpage.moveSlideLeft();
     });
+    $("#partners-link").click(function(e){
+        $.fn.fullpage.moveSlideRight();
+    });
     $("#experience-link").click(function(e){
         $.fn.fullpage.moveSlideRight();
     });

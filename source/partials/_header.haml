@@ -5,26 +5,27 @@
   #menu-open
     .container
       %ul
-        %li{:"data-menuanchor"=>"aboutus"}
-          %a{href:"#aboutus"}
+
+        %li{:"data-menuanchor"=>"mission"}
+          %a{href:"#mission"}
             = t("menu.li1")
+        %li{:"data-menuanchor"=>"whatwedo"}
+          %a{href:"#whatwedo"}
+            = t("menu.li2")
         %li{:"data-menuanchor"=>"howwework"}
           %a{href:"#howwework"}
-            = t("menu.li2")
-        %li{:"data-menuanchor"=>"whatwedo"}
-          %a{href:"#howwework/1"}
             = t("menu.li3")
-        %li{:"data-menuanchor"=>"ourexperience"}
-          %a{href:"#ourexperience"}
+        %li{:"data-menuanchor"=>"advantages"}
+          %a{href:"#advantages"}
             = t("menu.li4")
         %li{:"data-menuanchor"=>"ourvalues"}
           %a{href:"#ourvalues"}
             = t("menu.li5")
+        %li{:"data-menuanchor"=>"partners"}
+          %a{href:"#partners"}
+            = t("menu.li6")
         %li{:"data-menuanchor"=>"ourofficies"}
           %a{href:"#ourofficies"}
-            = t("menu.li6")
-        %li{:"data-menuanchor"=>"contactus"}
-          %a{href:"#ourofficies/1"}
             = t("menu.li7")
   #lang
     %ul

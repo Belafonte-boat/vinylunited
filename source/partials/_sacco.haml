@@ -1,11 +1,12 @@
 #partner-section
   .container
-    .avatar
-      = image_tag "vinyl_sacco.png"
-    %h2.title
-      = t("partners.sacco.title")
-    %h3.subtitle
-      = t("partners.sacco.subtitle")
+    .person
+      .avatar
+        = image_tag "vinyl_sacco.png"
+      %h2.title
+        = t("partners.sacco.title")
+      %h3.subtitle
+        = t("partners.sacco.subtitle")
     .main
       %ul.bullet
         - t("partners.sacco.main").each do |f|

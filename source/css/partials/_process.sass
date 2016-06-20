@@ -4,11 +4,22 @@
       display: none
     .vertical
       display: block
+      position: relative
+      left: -13px
+
+  #partners-link span
+    position: relative
+    left: 10px
 
 +susy-breakpoint($screen4, $break3)
   #process-section
     .process
       .horizontal
         display: block
+        +pre(2 of 12)
+        +span(10 of 12)
+        img
+          max-width: 100%
+          height: initial
       .vertical
         display: none

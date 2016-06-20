@@ -1,12 +1,13 @@
 #partner-section
   .container
-    .avatar
-      = image_tag "vinyl_chiovato.png"
-    %h2.title
-      = t("partners.chiovato.title")
-    %h3.subtitle
-      = t("partners.chiovato.subtitle")
-    .main
+    .person
+      .avatar
+        = image_tag "vinyl_chiovato.png"
+      %h2.title
+        = t("partners.chiovato.title")
+      %h3.subtitle
+        = t("partners.chiovato.subtitle")
+    .main.partner-bio
       %ul.bullet
         - t("partners.chiovato.main").each do |f|
           %li

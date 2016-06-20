@@ -26,6 +26,11 @@
       font-weight: 300
       font-weight: px-to-em(14px,16px)
       letter-spacing: px-to-em(2px,16px)
+
+  #experience2-link
+    position: relative
+    top: 23px
+
 #ourexperience-section
   h3
     min-height: 48px
@@ -33,8 +38,11 @@
 +susy-breakpoint($screen4, $break3)
   #ourexperience-section
     .spacer
-      +pre(1 of 12)
+      +pre(2 of 12)
       +span(10 of 12)
+    .arrow-right
+      left: 20px
+      top: calc(50% + 50px)
     .category
       +gallery(3  of 12)
     .vertical-spacer
