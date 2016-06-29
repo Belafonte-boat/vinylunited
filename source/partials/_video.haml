@@ -1,0 +1,12 @@
+#video
+  .container
+    %h2.title
+      = t("video.title")
+    %video#movie
+      %iframe{:allowscriptaccess => "always", :allowFullScreen => "true", :frameborder => "0", :height => "430", :width => "640", :src => "https://www.youtube.com/embed/dMGZTIMRIIo"}
+
+    .arrow-left
+      #aboutusfromright-link
+        %span
+          = t("aboutus.title")
+        .asset

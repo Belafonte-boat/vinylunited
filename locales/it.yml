@@ -13,9 +13,12 @@ it:
     li8: "Contattaci"
   landing:
     title: "BRAND ENGAGEMENT COMMUNICATION PROJECTS"
+  video:
+    title: "LOREM IPSUM"
   aboutus:
     title: "LA NOSTRA MISSION"
     main: "Vinyl United si propone come partner di aziende che hanno a cuore la costruzione di un efficace Brand Engagement creando una vera e propria rete di consenso intorno all’azienda, al suo management, ai suoi prodotti."
+    next: "VEDI IL VIDEO"
   partners:
     title: "PARTNERS"
     next: "CHIOVATO"

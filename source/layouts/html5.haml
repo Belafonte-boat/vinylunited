@@ -12,13 +12,26 @@
 
     = page_metas
 
-    %link{ rel: "apple-touch-icon", sizes: "152x152", href: "apple-touch-icon-152x152-precomposed.png?v=1" }
-    %link{ rel: "apple-touch-icon", sizes: "144x144", href: "apple-touch-icon-144x144-precomposed.png?v=1" }
-    %link{ rel: "apple-touch-icon", sizes: "114x114", href: "apple-touch-icon-114x114-precomposed.png?v=1" }
-    %link{ rel: "apple-touch-icon", sizes: "72x72", href: "apple-touch-icon-72x72-precomposed.png?v=1" }
-    %link{ rel: "apple-touch-icon", href: "apple-touch-icon-precomposed.png?v=1" }
-    %link{ rel: "shortcut icon", href: "favicon.png?v=1" }
-    %link{ rel: "icon", type: "image/ico", href: "favicon.ico?v=1" }
+    %link{:href => "images/favicon/apple-touch-icon-57x57.png", :rel => "apple-touch-icon", :sizes => "57x57"}/
+    %link{:href => "images/favicon/apple-touch-icon-60x60.png", :rel => "apple-touch-icon", :sizes => "60x60"}/
+    %link{:href => "images/favicon/apple-touch-icon-72x72.png", :rel => "apple-touch-icon", :sizes => "72x72"}/
+    %link{:href => "images/favicon/apple-touch-icon-76x76.png", :rel => "apple-touch-icon", :sizes => "76x76"}/
+    %link{:href => "images/favicon/apple-touch-icon-114x114.png", :rel => "apple-touch-icon", :sizes => "114x114"}/
+    %link{:href => "images/favicon/apple-touch-icon-120x120.png", :rel => "apple-touch-icon", :sizes => "120x120"}/
+    %link{:href => "images/favicon/apple-touch-icon-144x144.png", :rel => "apple-touch-icon", :sizes => "144x144"}/
+    %link{:href => "images/favicon/apple-touch-icon-152x152.png", :rel => "apple-touch-icon", :sizes => "152x152"}/
+    %link{:href => "images/favicon/apple-touch-icon-180x180.png", :rel => "apple-touch-icon", :sizes => "180x180"}/
+    %link{:href => "images/favicon/favicon-32x32.png", :rel => "icon", :sizes => "32x32", :type => "image/png"}/
+    %link{:href => "images/favicon/favicon-194x194.png", :rel => "icon", :sizes => "194x194", :type => "image/png"}/
+    %link{:href => "images/favicon/favicon-96x96.png", :rel => "icon", :sizes => "96x96", :type => "image/png"}/
+    %link{:href => "images/favicon/android-chrome-192x192.png", :rel => "icon", :sizes => "192x192", :type => "image/png"}/
+    %link{:href => "images/favicon/favicon-16x16.png", :rel => "icon", :sizes => "16x16", :type => "image/png"}/
+    %link{:href => "images/favicon/manifest.json", :rel => "manifest"}/
+    %link{:color => "#5bbad5", :href => "images/favicon/safari-pinned-tab.svg", :rel => "mask-icon"}/
+    %meta{:content => "#da532c", :name => "msapplication-TileColor"}/
+    %meta{:content => "images/favicon/mstile-144x144.png", :name => "msapplication-TileImage"}/
+    %meta{:content => "#ffffff", :name => "theme-color"}/
+
 
     %link{href: "http://fonts.googleapis.com/css?family=Muli:300,400|Lato:300,400,700", rel: "stylesheet", type: "text/css"}/
 
@@ -27,7 +40,7 @@
     /[if lt IE 9]
       <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
       <script src="/js/vendor/html5shiv.js"></script>
-    
+
     = stylesheet_link_tag "application"
     :javascript
       (function (d, t) {
@@ -38,17 +51,7 @@
         })(document, 'script');
   %body
     = partial'partials/tag-manager'
-    
+
     = yield
 
     = javascript_include_tag "site"
-    
-
-
-    
-
-
-
-
-
-

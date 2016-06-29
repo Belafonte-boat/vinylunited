@@ -153,6 +153,12 @@ $(document).ready(function() {
     $("#aboutus-link").click(function(e){
         $.fn.fullpage.moveSlideLeft();
     });
+    $("#aboutusfromright-link").click(function(e){
+        $.fn.fullpage.moveSlideLeft();
+    });
+    $("#video-link").click(function(e){
+        $.fn.fullpage.moveSlideRight();
+    });
     $("#whatwedo-link").click(function(e){
         $.fn.fullpage.moveSlideRight();
     });
